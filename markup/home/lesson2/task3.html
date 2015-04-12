@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!-- forms -->
+<form action="/">
+    Name <br/> <!-- Enter your name form -->
+    <input type="text" name="user_name" value="Please, enter your name here" size="35"/> <br/> <br/>
+    Email <br/> <!-- Enter your email form -->
+    <input type="email" name="user_email" value="Please, enter your email here" size="35"/> <br/> <br/>
+    Sex <br/> <!-- Sex Radio -->
+    <input type="radio" name="user_sex_male" value="Male"/>Male
+    <input type="radio" name="user_sex_female" value="Female"/>Female <br/> <br/>
+    Current status <!-- Employment status checkbox --> <br/>
+    <input type="checkbox" name="user_sudent" value="Student"/> Student <br/>
+    <input type="checkbox" name="user_employed" value="Employed"/> Employed <br/>
+    <input type="checkbox" name="user_unemployed" value="Unemployed"/> Unemployed <br/> <br/>
+    Month and Year of birth <!-- Month,year // not sure if i used correct input type here ???--> <br/>
+    <input type="month" name="user_birth"/>
+</form><br/> <br/>
+<!-- multiply selection -->
+Skills and Technologies <br/>
+<select name="skills" id="skills" multiple="multiple" size="11">
+    <optgroup label="Tech skills">
+        <option value="html" selected="selected">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">Java Script</option>
+        <option value="git">git</option>
+    </optgroup>
+    <optgroup label="Soft skills">
+        <option value="time management">Time management</option>
+        <option value="proactivity">Proactivity</option>
+        <option value="teamwork">Teamwork</option>
+        <option value="leadership">Leadership</option>
+    </optgroup>
+</select> <br/> <br/>
+<!-- Photo -->
+Photo <br/>
+<form action="/">
+    <input type="file"/>
+</form><br/><br/>
+<!-- Comments -->
+Comments <br/>
+<textarea name="comments" cols="30" rows="10" required>Please, leave your comments here</textarea> <br/><br/>
+<!-- Submit button-->
+<button type="submit">Save</button><br/><br/>
+</body>
+</html>
