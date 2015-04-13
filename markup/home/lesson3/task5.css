@@ -1,0 +1,9 @@
+/* - background: #ddebf7; голубой
+- background: #f2f2de; бежевый */
+
+tr td:nth-child(2n+3) {
+    background: #f2f2de;
+}
+tr:nth-last-child(2n+1) {
+    background: #ddebf7
+}
