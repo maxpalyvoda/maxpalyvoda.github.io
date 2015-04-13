@@ -1,10 +1,10 @@
 
-article p:first-of-type
+article p:first-of-type /* Specify a font-size for the first <p> element of its parent. in that case the parent is article */
 {
     font-size: larger;
 }
 
-article p:last-of-type
+article p:last-of-type /* Specify a color for the last <p> element of its parent. in that case the parent is article */
 {
     color: #999;
 }
