@@ -1,0 +1,27 @@
+/* ¬аша задача написать такой css файл, который сделает:
+
+Ч цвет внешних ссылок #f70;
+Ч ссылки на сервисы google должны быть цвета \#666
+Ч ссылка в новом окне должна после себ€ содержать utf символ ? (без подчеркивани€)
+ѕолучитс€ внешний вид как на картинке task4.png */
+
+/* Question: how to optimize it better to use less code? */
+
+a[href^="http://ya.ru"]:not([href*="http://google.com"]),
+a[href^="https://mail.ya.ru"]:not([href*="http://maps.google.com"]),
+a[href^="http://maps.yandex.ru"]:not([href*="http://news.google.com"]) {
+    color: #f70;
+}
+a[href^="http://maps.yandex.ru"]:not([href*="http://news.google.com"]):after { /* my chrome doesn't read the symbol */
+    color: #f70;
+    content: "?";
+}
+a[href^="http://google.com"]:not([href*="http://ya.ru"]),
+a[href^="http://maps.google.com"]:not([href*="https://mail.ya.ru"]),
+a[href^="http://news.google.com"]:not([href*="http://maps.yandex.ru"]) {
+    color: #666;
+}
+
+
+
+
