@@ -18,7 +18,7 @@ a[href^="http://maps.yandex.ru"]:not([href*="http://news.google.com"]):after { /
     margin-left: 5px;
     position: absolute;
     color: orange;
-    -webkit-transform: rotate(-270deg);
+    -webkit-transform: rotate(270deg);
 }
 a[href^="http://google.com"]:not([href*="http://ya.ru"]),
 a[href^="http://maps.google.com"]:not([href*="https://mail.ya.ru"]),
