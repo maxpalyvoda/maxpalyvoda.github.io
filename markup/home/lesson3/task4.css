@@ -1,9 +1,9 @@
-/* Ваша задача написать такой css файл, который сделает:
+/* Г‚Е•Е™Е• Г§Е•Г¤Е•Г·Е• Г­Е•ДЏДЌЕ„Е•Е€Гј Е€Е•Д™Г®Г© css ГґЕ•Г©Г«, Д™Г®Е€Г®Д‘Е±Г© Е„Г¤ДєГ«Е•ДєЕ€:
 
-— цвет внешних ссылок #f70;
-— ссылки на сервисы google должны быть цвета \#666
-— ссылка в новом окне должна после себя содержать utf символ ? (без подчеркивания)
-Получится внешний вид как на картинке task4.png */
+вЂ” Г¶ГўДєЕ€ ГўГ­ДєЕ™Г­ДЌЕ‘ Е„Е„Е±Г«Г®Д™ #f70;
+вЂ” Е„Е„Е±Г«Д™ДЌ Г­Е• Е„ДєД‘ГўДЌЕ„Е± google Г¤Г®Г«Д‡Г­Е± ГЎЕ±Е€Гј Г¶ГўДєЕ€Е• \#666
+вЂ” Е„Е„Е±Г«Д™Е• Гў Г­Г®ГўГ®Д› Г®Д™Г­Дє Г¤Г®Г«Д‡Г­Е• ДЏГ®Е„Г«Дє Е„ДєГЎЛ™ Е„Г®Г¤ДєД‘Д‡Е•Е€Гј utf Е„ДЌД›ГўГ®Г« ? (ГЎДєГ§ ДЏГ®Г¤Г·ДєД‘Д™ДЌГўЕ•Г­ДЌЛ™)
+ДЋГ®Г«ГіГ·ДЌЕ€Е„Л™ ГўГ­ДєЕ™Г­ДЌГ© ГўДЌГ¤ Д™Е•Д™ Г­Е• Д™Е•Д‘Е€ДЌГ­Д™Дє task4.png */
 
 /* Question: how to optimize it better to use less code? */
 
@@ -14,7 +14,11 @@ a[href^="http://maps.yandex.ru"]:not([href*="http://news.google.com"]) {
 }
 a[href^="http://maps.yandex.ru"]:not([href*="http://news.google.com"]):after { /* my chrome doesn't read the symbol */
     color: #f70;
-    content: "?";
+    content:'\21F1';
+    margin-left: 5px;
+    position: absolute;
+    color: orange;
+    transform: rotate(-270deg);
 }
 a[href^="http://google.com"]:not([href*="http://ya.ru"]),
 a[href^="http://maps.google.com"]:not([href*="https://mail.ya.ru"]),
