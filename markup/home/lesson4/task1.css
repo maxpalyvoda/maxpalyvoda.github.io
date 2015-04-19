@@ -1,0 +1,43 @@
+.menu {
+    text-align: justify;
+    background: #fff;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+
+}
+.menu-container {
+    text-transform: uppercase;
+    background: #bb74ff;
+    color: #fff;
+    width: 900px;
+    font-family: impact;
+    margin-left: 200px;
+    padding: 0px;
+    box-shadow: 0px 1px 10px #EEEEEE, 0px -1px 10px #EEEEEE;
+    text-align: justify;
+}
+.menu-container li {
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px;
+    list-style-type: none;
+    margin-left: 50px;
+}
+.menu-container a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: -40px;
+}
+.menu-container li a:hover {
+    background-color: #EEEEEE;
+    color: #9FA0B5;
+    padding: 10px;
+}
+
+/* вопросы:
+из-за нехватки времени не успел нормально разобрать
+- как сделать отступ нормальный с левой стороны Home, не думаю что мой вариант верный
+- как сделать box-shadow только сверху и низу и убрать по бокам
+- результатом роботы над заданием не очень доволен, могу сделать лучше :(
+*/

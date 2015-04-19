@@ -14,7 +14,7 @@ a[href^="http://maps.yandex.ru"]:not([href*="http://news.google.com"]) {
 }
 a[href^="http://maps.yandex.ru"]:not([href*="http://news.google.com"]):after { /* my chrome doesn't read the symbol */
     color: #f70;
-    content: "?";
+    content: "?"; /* в браузере разные дефолтные шрифты; хороший вариант с svg картинкой, если символ редкий */
 }
 a[href^="http://google.com"]:not([href*="http://ya.ru"]),
 a[href^="http://maps.google.com"]:not([href*="https://mail.ya.ru"]),

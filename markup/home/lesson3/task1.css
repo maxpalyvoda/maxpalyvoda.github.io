@@ -48,6 +48,7 @@ p em {
     font-weight: bold;
     text-align: center;
 }
+/* всем после первой - правильное решение */
 tbody tr td {
     background-color: green;
     color: white;
@@ -58,3 +59,4 @@ tbody tr td:first-child {
     background-color: white;
     text-align: left;
 }
+

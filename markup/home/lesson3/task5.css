@@ -7,3 +7,10 @@ tr td:nth-child(2n+3) {
 tr:nth-last-child(2n+1) {
     background: #ddebf7
 }
+/*
+an + b
+вписывать четные или нечетные
+odd
+even
+*/
+
