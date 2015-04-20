@@ -34,7 +34,7 @@
     color: #9FA0B5;
     padding: 10px;
 }
-li .active {
+li .active { /* active */
     background-color: #EEEEEE;
     color: #9FA0B5;
     padding: 10px;
