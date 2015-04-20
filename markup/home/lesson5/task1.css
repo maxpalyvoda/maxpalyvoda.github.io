@@ -67,6 +67,11 @@
 }
 .topnav li:hover .subnavigation  {
     display: inline-block;
+    color: #9FAABC;
 }
+
+/* вопросы
+ 1. как ввыелять ховером и a
+ */
 
 
