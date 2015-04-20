@@ -27,18 +27,14 @@
 .menu a {
     text-decoration: none;
     color: #fff;
-    margin-right: -40px;                                /* !!! was -40px margin-right*/
+    c                               /* !!! was -40px margin-right*/
 }
 .menu a:hover {
     background-color: #EEEEEE;
     color: #9FA0B5;
     padding: 10px;
 }
-li .active { /* active */
-    background-color: #EEEEEE;
-    color: #9FA0B5;
-    padding: 10px;
-}
+
 
 
 

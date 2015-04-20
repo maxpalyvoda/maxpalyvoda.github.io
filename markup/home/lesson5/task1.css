@@ -1,54 +1,65 @@
-.menu {
+.navbar {  /* параметри для блоку ДИВ */
     text-align: justify;
     background: #fff;
     color: #fff;
     margin: 0px;
     padding: 0px;
-
 }
-.menu-container {
+.topnav {     /* параметри для ЮЛ */
+    margin: auto;
+    padding: 0px;
     text-transform: uppercase;
     background: #1AA4FF;
     color: #fff;
-    width: 900px;
-    font-family: impact;
-    margin-left: 200px;
-    padding: 0px;
-    box-shadow: 0px 1px 10px #EEEEEE, 0px -1px 10px #EEEEEE;
-    text-align: justify;
-}
-.menu-container li {
-    font-size: 16px;
-    display: inline-block;
-    padding: 10px;
     list-style-type: none;
-    margin-left: 40px;
+    width: 900px;
 }
-.menu-container a {
+.topnav a {
     text-decoration: none;
     color: #fff;
-    margin-right: -40px;
 }
-.menu-container li a:hover {
-    background-color: #EEEEEE;
-    color: #9FA0B5;
-    padding: 10px;
-}
-
-.subnavigation {
+.subnav {
+    margin: auto;
     position: absolute;
+    text-align: justify;
+    padding: 0px;
 }
-ul.subnavigation  {
+.subnav ul {
     position: relative;
     margin: 4px 0 0 -8px;
-    padding: 0;
+    padding: 0px;
     display: none;
+    background: #EEEEEE;
+    width: 900px;
+
 }
-.subnavigation li {
-    background-color: red;
-    list-style: none;
+.topnav  li{
+    list-style-type: none;
     display: inline-block;
     color: white;
+    padding: 4px 8px;
+    font-family: impact;
+    font-size: 16px;
+
+    line-height: 32px;
+
+    clear: none;
+    box-sizing: border-box;
+}
+
+.subnavigation{
+
+}
+.subnavigation a {
+    color: #9FAABC;
+    text-decoration: none;
+}
+
+.subnavigation li {
+    background-color: #EEEEEE;
+    list-style: none;
+    display: inline-block;
+    color: #9FAABC;
     padding: 4px 8px;
     font-weight: bold;
     position: relative;
@@ -56,4 +67,31 @@ ul.subnavigation  {
     float: left;
     clear: none;
     box-sizing: border-box;
+
+}
+
+.topnav li:hover {
+    background-color: #1AA4FF   ;
+}
+
+.topnav li:hover .subnavigation  {
+    display: inline-block;
+    background-color: #1AA4FF;
+}
+
+.nav ul li:hover {
+    background-color: black;
+}
+
+.nav ul li {
+    width: 100%;
+}
+
+.nav li ul {
+    display: inline-block;
+    clear: none;
+    position: absolute;
+    background-color: red;
+    margin: 4px 0 0 -8px;
+    padding: 0;
 }
