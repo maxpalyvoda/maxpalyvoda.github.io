@@ -10,25 +10,25 @@
     padding: 0px;
     text-transform: uppercase;
     background: #1AA4FF;
-    color: #fff;
     list-style-type: none;
     width: 900px;
 }
 .topnav  li{
     list-style-type: none;
     display: inline-block;
-    color: #fff;
-    padding: 4px 8px;
+    padding: 5px 5px 5px 5px;
     font-family: impact;
-    font-size: 16px;
-    line-height: 32px;
+    font-size: 15px;
+    line-height: 30px;
     clear: none;
     box-sizing: border-box;
-    margin-left: 12px;
+    margin-left: 20px;
 }
 .topnav a {
     text-decoration: none;
     color: #fff;
+    display: inline; /* inline or inline-block??? */
+    box-sizing: border-box;
 }
 .subnav { /* параметри для блоку ДИВ */
     margin: auto;
@@ -38,7 +38,7 @@
 }
 .subnavigation { /* параметри для ЮЛ */
     position: relative;
-    margin: 4px 0px 0px -493px;
+    margin: 4px 0px 0px -491px;
     padding: 0px;
     display: none;
     background: #EEEEEE;
@@ -60,10 +60,12 @@
 .subnavigation a {
     color: #9FAABC;
     text-decoration: none;
+
 }
 .topnav li:hover, .topnav a:hover {
     background-color: #EEEEEE;
     color: #9FAABC;
+
 }
 .topnav li:hover .subnavigation  {
     display: inline-block;
