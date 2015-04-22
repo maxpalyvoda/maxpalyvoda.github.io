@@ -1,0 +1,107 @@
+.pager {
+  display: block;
+  width: 420px;
+  height: 40px;
+  font-size: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: auto;
+  padding 0px;
+  border: none; /* delete color and solid */
+  background: #FAFAFA;
+}
+.pager li {
+    text-decoration: none; 
+    border: none;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin: 0px 5px 0px 0px;
+    padding: 0px 0px 0px 0px;;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Trebuchet MS;
+    float: left; /* важный момент, который помог "схлопнуть кубики с тектом!!!" */
+}
+.pager li a {
+    display: inline-block;
+    width: 22px; /* размер коробок с цифрами */
+    height: 22px; /* размер коробок с цифрами */
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    margin: 8px 0px 0px 30px;
+    padding: 3px 0px 0px 0px;
+    box-sizing: border-box;
+    color: #A13BCF;
+}
+.pager .next a {
+   display: inline-block;
+   border: none; /* delete */
+   box-sizing: border-box;
+   margin: 6px 0px 0px 38px;
+   padding: 7px 0px 5px 0px;
+   color: #A13BCF;
+}
+.pager .last a {
+   display: inline-block;
+   border: none; /* delete */
+   color: #A13BCF;
+   box-sizing: border-box;
+   margin: 6px 0px 0px 70px; 
+   padding: 7px 0px 5px 0px;
+}
+.pager .first a:before {
+    content: "<<";
+    font-family: Trebuchet MS;
+    margin-right: 4px;
+}
+.pager .first a {
+   display: inline-block;
+   border: none; /* delete */
+   color: #A13BCF;
+   box-sizing: border-box;
+   margin: 6px 0px 0px -50px;
+   padding: 7px 0px 5px 0px;
+}
+.pager .prev a {
+   display: inline-block;
+   border: none; /* delete */
+   color: #A13BCF;
+   box-sizing: border-box;
+   margin: 6px 0px 0px 5px; 
+   padding: 7px 0px 5px 0px;
+}
+.pager .prev a:before {
+    content: "<<";
+    font-family: Trebuchet MS;
+    margin-right: 4px;
+}
+.pager .next a:after {
+    content: ">>";
+    font-family: Trebuchet MS;
+    margin-left: 4px;
+}
+.pager .last a:after {
+    content: ">>";
+    font-family: Trebuchet MS;
+    margin-left: 4px;
+}
+.pager .points a {
+   display: inline-block;
+   border: none; /* delete */
+   color: #A13BCF;
+   box-sizing: border-box;
+   padding-top: 11px;  
+}
+.pager .prev a:hover, .pager .first a:hover, .pager .last a:hover, .pager .next a:hover {
+   color: #fff;
+    background: none;
+   
+}
+.pager li a:hover {
+    color: #fff; 
+    background: #A13BCF;
+}
