@@ -231,22 +231,22 @@ ul li:nth-child(2n) {
     margin: auto;
     border: 0;
     padding: 0;
-    background: #EE8129;
+    background: #2F70A8;
     top: 135px;
     right: 25px;
     height: 45px;
     width: 254px;
     border-radius: 5px;
-    box-shadow: 0 4px 1px #B3560B;
+    box-shadow: 0 4px 1px #265B88;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
 }
 .button1:hover {
-   background: #D67425;
+   background: #2A6597;
    color: #fff;
    cursor: pointer;
-   box-shadow: 0 4px 1px #A14D0A;
+   box-shadow: 0 4px 1px #265B88;
 }
 
 
@@ -357,20 +357,20 @@ ul li:nth-child(2n) {
     margin: auto;
     border: 0;
     padding: 0;
-    background: #EE8129;
+    background: #2F70A8;
     top: 135px;
     right: 25px;
     height: 45px;
     width: 254px;
     border-radius: 5px;
-    box-shadow: 0 4px 1px #B3560B;
+    box-shadow: 0 4px 1px #265B88;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
 }
 .button2:hover {
-   background: #D67425;
+   background: #2A6597;
    color: #fff;
    cursor: pointer;
-   box-shadow: 0 4px 1px #A14D0A;
+   box-shadow: 0 4px 1px #265B88;
 }
