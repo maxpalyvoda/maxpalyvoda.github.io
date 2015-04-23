@@ -110,3 +110,9 @@ ul li:nth-child(2n) {
     text-transform: uppercase;
     font-weight: bold;
 }
+.button:hover {
+   background: #D67425;
+   color: #fff;
+   cursor: pointer;
+   box-shadow: 0 4px 1px #A14D0A;
+}
