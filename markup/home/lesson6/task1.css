@@ -319,7 +319,7 @@ ul li:nth-child(2n) {
     position: relative; /* not sure */
     font-size: 15px;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: none;
     color: grey;
     top: 110px;
     right: 31px;
@@ -347,7 +347,7 @@ ul li:nth-child(2n) {
     left: 30px;
 }
 .upper12 {
-     text-transform: uppercase;
+     text-transform: none;
 }
 
 ul li:nth-child(2n) {
