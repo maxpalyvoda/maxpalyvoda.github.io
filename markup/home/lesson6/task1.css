@@ -1,0 +1,377 @@
+.super {
+    border: 1px none;
+    width: 1000px;
+    height: 600px;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 50px 0px 0px 40px;
+}
+.main {
+    height: 510px;
+    width: 300px;
+    border: 1px none;
+    background: #EE8129;
+    box-shadow: 0 0 30px #CBE2EF;
+    text-align: left;
+    padding: 30px 0px 0px 80px;
+    box-sizing: border-box;
+    color: white;
+    text-transform: uppercase;
+    font-family: Trebuchet MS;
+    font-size: 25px;
+    position: absolute;
+    border-radius: 5px;
+    margin: -15px 0px 0px 300px; 
+    z-index: 999999;
+}
+.iconic {
+    position: absolute;
+    height: 408px;
+    width: 290px;
+    border: 1px none ;
+    background: #fff;
+    top: 96px; /* placement of a white block, up/down */
+    right: 5px;
+    color: #35495A;
+    box-sizing: border-box;
+    padding: 18px 0px 0px 44px; /* ??? */
+}
+.number25 {
+    position: absolute; /* ???? */
+    box-sizing: border-box;
+    font-size: 60px;
+    font-weight: bold;
+    top: 0px;
+    left: 72px;
+
+}
+.number25:before {
+    content:"$";
+    font-size: 18px;
+    position: relative;
+    right: 1px;
+    top: -30px;
+    text-transform: none;
+    font-weight: normal;
+}
+.number25:after {
+    content:"Monthly";
+    position: relative;
+    font-size: 17px;
+    top: 5px;
+    text-transform: none;
+    font-weight: normal;
+}
+.skills {
+
+    height: 80px;
+    width: 266px;
+    position: relative; /* not sure */
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: grey;
+    top: 110px;
+    right: 31px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.skills ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.skills li {
+    list-style: none;
+    border: 1px solid #fff;
+    padding: 10px;
+    background: #DBEBF4;
+    padding-left: 55px;
+    box-sizing: border-box;
+}
+.upper::before, .upper1::before  {
+    content: url(http://s1.sendimage.me/cOFstoiy.png);
+    position: absolute;
+    left: 30px;
+}
+.upper1 {
+    text-transform: none;
+}
+
+ul li:nth-child(2n) {
+    background: #F5F5F6;
+}
+.button {
+    position: relative;
+    margin: auto;
+    border: 0;
+    padding: 0;
+    background: #EE8129;
+    top: 135px;
+    right: 25px;
+    height: 45px;
+    width: 254px;
+    border-radius: 5px;
+    box-shadow: 0 4px 1px #B3560B;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button:hover {
+   background: #D67425;
+   color: #fff;
+   cursor: pointer;
+   box-shadow: 0 4px 1px #A14D0A;
+}
+
+/* ____________________________RIGHT BLOCK______________________________ */
+
+.main1 {
+    height: 475px;
+    width: 301px;
+    border: 1px solid #fff;
+    background: #00B89A;
+    box-shadow: none;
+    text-align: left;
+    padding: 30px 0px 0px 80px;
+    box-sizing: border-box;
+    color: white;
+    text-transform: uppercase;
+    font-family: Trebuchet MS;
+    font-size: 25px;
+    position: absolute;
+    border-radius: 5px;
+    margin: 0px 0px 0px 598px;
+    
+}
+.iconic1 {
+    position: absolute;
+    height: 395px; /* height of WHITE part */
+    width: 300px; /* width of WHITE part */
+    border: 1px solid;
+    border-color: transparent #E8EAEC #E8EAEC transparent; /* finish border */
+    border-bottom-right-radius: 5px;
+    background: #fff;
+    top: 80px;
+    right: 0px;
+    color: #35495A;
+    box-sizing: border-box;
+    padding: 18px 0px 0px 44px; /* ??? */
+}
+.number35 {
+    position: absolute; /* ???? */
+    box-sizing: border-box;
+    font-size: 60px;
+    font-weight: bold;
+    top: 0px;
+    left: 72px;
+
+}
+.number35:before {
+    content:"$";
+    font-size: 18px;
+    position: relative;
+    right: 1px;
+    top: -30px;
+    text-transform: none;
+    font-weight: normal;
+}
+.number35:after {
+    content:"Monthly";
+    position: relative;
+    font-size: 17px;
+    top: 5px;
+    text-transform: none;
+    font-weight: normal;
+}
+.skills1 {
+
+    height: 80px;
+    width: 266px;
+    position: relative; /* not sure */
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: grey;
+    top: 110px;
+    right: 31px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.skills1 ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.skills1 li {
+    list-style: none;
+    border: 1px solid #fff;
+    padding: 10px;
+    background: #DBEBF4;
+    padding-left: 55px;
+    box-sizing: border-box;
+}
+.upper1::before, .upper11::before  {
+    content: url(http://s1.sendimage.me/cOFstoiy.png);
+    position: absolute;
+    left: 30px;
+}
+.upper11 {
+    text-transform: none;
+}
+
+ul li:nth-child(2n) {
+    background: #F5F5F6;
+}
+.button1 {
+    position: relative;
+    margin: auto;
+    border: 0;
+    padding: 0;
+    background: #2F70A8;
+    top: 135px;
+    right: 25px;
+    height: 45px;
+    width: 254px;
+    border-radius: 5px;
+    box-shadow: 0 4px 1px #265B88;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button1:hover {
+   background: #2A6597;
+   color: #fff;
+   cursor: pointer;
+   box-shadow: 0 4px 1px #265B88;
+}
+
+
+/* ========================LEFT BLOCK==================================== */
+
+.main2 {
+    height: 475px;
+    width: 301px;
+    border: 1px solid #fff;
+    background: #2BC2D4;
+    box-shadow: none;
+    text-align: left;
+    padding: 30px 0px 0px 80px;
+    box-sizing: border-box;
+    color: white;
+    text-transform: uppercase;
+    font-family: Trebuchet MS;
+    font-size: 25px;
+    position: absolute;
+    border-radius: 5px;
+    margin: 0px 0px 0px 3px;
+    
+    
+}
+.iconic2 {
+    position: absolute;
+    height: 395px; /* height of WHITE part */
+    width: 299px; /* width of WHITE part */
+    border: 1px solid;
+    border-color: transparent transparent #E8EAEC #E8EAEC ; /* finish border */
+    border-bottom-left-radius: 5px;
+    background: #fff;
+    top: 80px;
+    right: 0px;
+    color: #35495A;
+    box-sizing: border-box;
+    padding: 18px 0px 0px 44px; /* ??? */
+}
+.number10 {
+    position: absolute; /* ???? */
+    box-sizing: border-box;
+    font-size: 60px;
+    font-weight: bold;
+    top: 0px;
+    left: 72px;
+
+}
+.number10:before {
+    content:"$";
+    font-size: 18px;
+    position: relative;
+    right: 1px;
+    top: -30px;
+    text-transform: none;
+    font-weight: normal;
+}
+.number10:after {
+    content:"Monthly";
+    position: relative;
+    font-size: 17px;
+    top: 5px;
+    text-transform: none;
+    font-weight: normal;
+}
+.skills2 {
+
+    height: 80px;
+    width: 266px;
+    position: relative; /* not sure */
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: none;
+    color: grey;
+    top: 110px;
+    right: 31px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.skills2 ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.skills2 li {
+    list-style: none;
+    border: 1px solid #fff;
+    padding: 10px;
+    background: #DBEBF4;
+    padding-left: 55px;
+    box-sizing: border-box;
+}
+.upper2::before, .upper12::before  {
+    content: url(http://s1.sendimage.me/cOFstoiy.png);
+    position: absolute;
+    left: 30px;
+}
+.upper12 {
+     text-transform: none;
+}
+
+ul li:nth-child(2n) {
+    background: #F5F5F6;
+}
+.button2 {
+    position: relative;
+    margin: auto;
+    border: 0;
+    padding: 0;
+    background: #2F70A8;
+    top: 135px;
+    right: 25px;
+    height: 45px;
+    width: 254px;
+    border-radius: 5px;
+    box-shadow: 0 4px 1px #265B88;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button2:hover {
+   background: #2A6597;
+   color: #fff;
+   cursor: pointer;
+   box-shadow: 0 4px 1px #265B88;
+}
