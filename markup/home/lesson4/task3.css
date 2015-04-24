@@ -71,11 +71,15 @@
     font-family: Trebuchet MS;
     margin-left: 4px;
 }
-.page-number:hover, .page-active:hover {
+.page-number:hover {
     color: #fff; 
     background: #A13BCF;
 }
 .first:hover, .prev:hover, .next:hover, .last:hover {
    color: #fff;
    background: none;
+}
+.page-active:hover {
+    color: #fff; 
+    background: #A13BCF;
 }
