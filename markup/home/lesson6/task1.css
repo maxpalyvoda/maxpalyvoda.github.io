@@ -1,12 +1,13 @@
 .super {
-    border: 1px none;
+    border: 1px red solid;
     width: 900px;
-    height: 500px;
+    height: 600px;
     box-sizing: border-box;
-    margin: auto;
+    margin-top auto;
+    padding-top: 50px;
 }
 .main {
-    height: 490px;
+    height: 510px;
     width: 300px;
     border: 1px none;
     background: #EE8129;
@@ -20,16 +21,16 @@
     font-size: 25px;
     position: absolute;
     border-radius: 5px;
-    margin: 0px 0px 0px 300px; 
+    margin: -15px 0px 0px 300px; 
     z-index: 999999;
 }
 .iconic {
     position: absolute;
-    height: 405px;
+    height: 408px;
     width: 290px;
     border: 1px none ;
     background: #fff;
-    top: 80px;
+    top: 96px; /* placement of a white block, up/down */
     right: 5px;
     color: #35495A;
     box-sizing: border-box;
