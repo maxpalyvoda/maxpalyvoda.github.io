@@ -1,106 +1,81 @@
-.pager {
+.container {
+    width: 420px; 
+    margin: auto;
+    border: none; /* delete color and solid */ 
+}
+.pager-board {
   display: block;
-  width: 420px;
   height: 40px;
   font-size: 10px;
   text-decoration: none;
   text-transform: uppercase;
-  margin: auto;
-  padding 0px;
-  border: none; /* delete color and solid */
   background: #FAFAFA;
 }
-.pager li {
+.page-number {
     text-decoration: none; 
-    border: none;
+    border: 1px solid #DDDDDD;
     display: inline-block;
     width: 22px;
     height: 22px;
-    margin: 0px 5px 0px 0px;
-    padding: 0px 0px 0px 0px;;
+    padding: 0px;
     box-sizing: border-box;
     border-radius: 5px;
     text-align: center;
     font-family: Trebuchet MS;
-    float: left; /* важный момент, который помог "схлопнуть кубики с тектом!!!" */
+    float: left;
+    margin: 8px 0px 0px 6px;
+    padding: 4px 0px 0px 0px;
 }
-.pager li a {
-    display: inline-block;
-    width: 22px; /* размер коробок с цифрами */
-    height: 22px; /* размер коробок с цифрами */
-    text-decoration: none;
-    border: 1px solid #DDDDDD;
-    border-radius: 5px;
-    margin: 8px 0px 0px 30px;
-    padding: 4px 1px 0px 0px;
-    box-sizing: border-box;
-    color: #A13BCF;
-}
-.pager .next a {
-   display: inline-block;
-   border: none; /* delete */
-   box-sizing: border-box;
-   margin: 6px 0px 0px 38px;
-   padding: 7px 0px 5px 0px;
-   color: #A13BCF;
-}
-.pager .last a {
+.first, .prev {
    display: inline-block;
    border: none; /* delete */
    color: #A13BCF;
    box-sizing: border-box;
-   margin: 6px 0px 0px 70px; 
-   padding: 7px 0px 5px 0px;
+   margin: 12px 0px 0px 4px;
+   padding: 0px;
+   float: left;
+   text-decoration: none;
 }
-.pager .first a:before {
+.page-active {
+   display: inline-block;
+   border: none; /* delete */
+   color: #A13BCF;
+   box-sizing: border-box;
+   padding-top: 11px;
+   float: left;
+   margin: 8px 0px 0px 6px;
+   padding: 8px 0px 0px 0px;
+   width: 22px;
+   height: 22px;
+   border-radius: 5px;
+   text-align: center;
+   text-decoration: none;
+}
+.next, .last {
+   display: inline-block;
+   border: none; /* delete */
+   color: #A13BCF;
+   box-sizing: border-box;
+   margin: 12px 4px 0px 0px;
+   padding: 0px;
+   float: right;
+   text-decoration: none;
+}
+.first:before, .prev:before {
     content: "<<";
     font-family: Trebuchet MS;
     margin-right: 4px;
 }
-.pager .first a {
-   display: inline-block;
-   border: none; /* delete */
-   color: #A13BCF;
-   box-sizing: border-box;
-   margin: 6px 0px 0px -50px;
-   padding: 7px 0px 5px 0px;
-}
-.pager .prev a {
-   display: inline-block;
-   border: none; /* delete */
-   color: #A13BCF;
-   box-sizing: border-box;
-   margin: 6px 0px 0px 5px; 
-   padding: 7px 0px 5px 0px;
-}
-.pager .prev a:before {
-    content: "<<";
-    font-family: Trebuchet MS;
-    margin-right: 4px;
-}
-.pager .next a:after {
+.next:after, .last:after {
     content: ">>";
     font-family: Trebuchet MS;
     margin-left: 4px;
 }
-.pager .last a:after {
-    content: ">>";
-    font-family: Trebuchet MS;
-    margin-left: 4px;
-}
-.pager .points a {
-   display: inline-block;
-   border: none; /* delete */
-   color: #A13BCF;
-   box-sizing: border-box;
-   padding-top: 11px;  
-}
-.pager .prev a:hover, .pager .first a:hover, .pager .last a:hover, .pager .next a:hover, .pager .points a:hover  {
-   color: #fff;
-   background: none;
-   
-}
-.pager li a:hover {
+.page-number:hover, .page-active:hover {
     color: #fff; 
     background: #A13BCF;
+}
+.first:hover, .prev:hover, .next:hover, .last:hover {
+   color: #fff;
+   background: none;
 }
