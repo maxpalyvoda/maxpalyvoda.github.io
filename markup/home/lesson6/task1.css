@@ -1,5 +1,5 @@
 .super {
-    border: 1px red solid;
+    border: 1px none;
     width: 900px;
     height: 600px;
     box-sizing: border-box;
@@ -130,8 +130,8 @@ ul li:nth-child(2n) {
 
 .main1 {
     height: 475px;
-    width: 300px;
-    border: 1px solid #E8EAEC;
+    width: 301px;
+    border: 1px solid #fff;
     background: #00B89A;
     box-shadow: none;
     text-align: left;
@@ -255,8 +255,8 @@ ul li:nth-child(2n) {
 
 .main2 {
     height: 475px;
-    width: 300px;
-    border: 1px solid #E8EAEC;
+    width: 301px;
+    border: 1px solid #fff;
     background: #2BC2D4;
     box-shadow: none;
     text-align: left;
