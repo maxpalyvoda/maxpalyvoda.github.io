@@ -1,10 +1,10 @@
 .super {
     border: 1px none;
-    width: 900px;
+    width: 1000px;
     height: 600px;
     box-sizing: border-box;
-    margin: auto;
-    padding: 50px 0px 0px 50px;
+    margin auto;
+    padding: 50px 0px 0px 40px;
 }
 .main {
     height: 510px;
