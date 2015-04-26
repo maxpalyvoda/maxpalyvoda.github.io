@@ -1,4 +1,44 @@
 .intro {
-    width: 100%;
-    background: red;
+    width: 1024px;
+    height: 586px;
+    margin: -27px auto 0;
+    box-sizing: border-box;
+    background: url("http://s1.sendimage.me/JUpYsoyC.png") no-repeat;
+}
+.intro__title {
+    text-align: center;
+    padding: 160px 0px 0px 0px;
+    color: #fff;
+    font-weight: normal;
+    font-family: 'Open Sans';
+}
+.intro__title-first {
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 37px;
+}
+.intro__annotation {
+    text-align: center;
+    font-family: 'Open Sans';
+    color: #fff;
+    font-style: italic;
+    font-weight: normal;
+}
+.button {
+    margin: 45px 0px 0px 380px;
+    border: 1px solid white;
+    padding: 0;
+    background: transparent;
+    height: 60px;
+    width: 250px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button:hover {
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px white, -1px -1px 2px white;;
 }
