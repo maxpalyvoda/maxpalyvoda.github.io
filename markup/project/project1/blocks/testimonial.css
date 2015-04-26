@@ -1,0 +1,102 @@
+.testimonial-wrap {
+    background: url(http://s1.sendimage.me/Bc5Cdoz7.jpeg) repeat; /* background size, color, */
+    repeat;
+    margin: 60px auto;
+    height: 200px;
+    width: 100%;
+}
+h2 {
+    text-align: center;
+    padding: 25px 0px 15px 0px;
+    font-family: Trebuchet MS;
+    text-transform: uppercase;
+    color: #3170A8;
+}
+h2 .what {
+    color: #EE8129;
+}
+.image {
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
+.content-left {
+    /*border: 1px solid red;*/
+    height: 60px;
+    width: 290px;
+    float: left;
+    margin: 0px 0px 0px 120px;
+    overflow: hidden;
+}
+
+.image:after {
+    content: url(http://s1.sendimage.me/z4Q3foqg.png);
+    float: right;
+    height: 10px;
+    width: 10px;
+    margin: 14px 0px 0px 5px;
+}
+.content-right {
+    /*border: 1px solid red;*/
+    height: 60px;
+    width: 290px;
+    float: right;
+    margin: 0px 120px 0px 0px;
+    overflow: hidden;
+}
+.user-feedback {
+    height: 60px;
+    width: 210px;
+    /*border: 2px dotted blue;*/
+    margin: -1px 0px 0px 79px;
+    position: absolute;
+    float: right;
+    overflow: hidden;
+    font-size: 12px;
+    background: #F7F7F7;
+    box-sizing: border-box;
+}
+
+.user-name {
+    height: 20px;
+    width: 95px;
+    /*border: 1px dotted yellow;*/
+    margin: 0px 0px 0px 6px;
+    overflow: hidden;
+    color: #467CAE;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 4px 0px 0px 4px;
+    font-style: italic;
+}
+.user-name:before {
+    content: "-";
+    color: red;
+    padding: 0px 2px 0px 0px;
+    color: #467CAE;
+}
+.user-relation {
+    height: 20px;
+    width: 95px;
+    /*border: 1px dotted green;*/
+    overflow: hidden;
+    color: #467CAE;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 4px 4px 0px 0px;
+    margin: -20px 6px 0px 6px;
+    float: right;
+    text-align: right;
+    font-style: oblique;
+}
+.text {
+    border-top: 1px dotted #666666;
+    height: 38px;
+    width: 198px;
+    float: left;
+    margin: 0px 0px 0px 6px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 3px;
+    color: #666666;
+
+}
