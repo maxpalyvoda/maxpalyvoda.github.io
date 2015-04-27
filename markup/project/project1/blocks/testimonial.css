@@ -3,6 +3,7 @@
     margin: 60px auto;
     height: 310px;
     width: 100%;
+    min-width: 1024px; /* test!!!! */
 }
 h2 {
     text-align: center;
