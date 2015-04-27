@@ -1,0 +1,105 @@
+.testimonial-wrap {
+    background: url(http://s1.sendimage.me/Bc5Cdoz7.jpeg)repeat;
+    margin: 60px auto;
+    height: 310px;
+    width: 100%;
+    min-width: 1024px; /* test!!!! */
+    position: relative;
+}
+h2 {
+    text-align: center;
+    padding: 50px 0px 15px 0;
+    font-family: Trebuchet MS;
+    text-transform: uppercase;
+    color: #3170A8;
+}
+h2 .what {
+    color: #EE8129;
+}
+.image {
+    float: left;
+    margin: 0;
+}
+.content-left {
+   /* border: 1px solid red; */
+    height: 100px;
+    width: 490px;
+    afloat: left;
+    amargin: 30px 0 0 120px;
+    position: absolute;
+    top: 45%;
+    left: 2%;
+        
+}
+.content-right {
+    /* border: 1px solid red; */
+    height: 100px;
+    width: 490px;
+    afloat: right;
+    amargin: 30px 120px 0 0;
+    overflow: hidden;
+    position: absolute;
+    top: 45%;
+    right: 2%;
+}
+.image:after {
+    content: url(http://s1.sendimage.me/z4Q3foqg.png);
+    float: right;
+    height: 10px;
+    width: 10px;
+    margin: 36px 0 0 8px;
+}
+.user-feedback {
+    height: 100px;
+    width: 365px;
+  /*  border: 2px dotted blue; */
+    margin: -1px 0 0 125px;
+    position: absolute;
+    float: right;
+    /*overflow: hidden;*/
+    font-size: 12px;
+    background: #F7F7F7;
+    box-sizing: border-box;
+}
+.user-name {
+    height: 28px;
+    width: 95px;
+    /*border: 1px dotted yellow;*/
+    margin: 0 0 0 6px;
+    overflow: hidden;
+    color: #467CAE;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 6px 0 0 4px;
+    font-style: italic;
+}
+.user-name:before {
+    content: "-";
+    padding: 0 2px 0 0;
+    color: #467CAE;
+}
+.user-relation {
+    height: 28px;
+    width: 95px;
+    /*border: 1px dotted green; */
+    overflow: hidden;
+    color: #467CAE;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 6px 4px 0 0;
+    margin: -30px 6px 0 6px;
+    float: right;
+    text-align: right;
+    font-style: oblique;
+}
+.text {
+    border-top: 1px dotted #666666;
+    height: 38px;
+    width: 335px;
+    margin: 0 0 0 10px;
+    float: left;
+    box-sizing: border-box;
+    padding: 3px;
+    color: #666666;
+    text-align: justify;
+}
