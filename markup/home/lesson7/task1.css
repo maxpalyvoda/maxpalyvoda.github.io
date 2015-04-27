@@ -9,6 +9,11 @@
     text-shadow: 0 0 3px #555;
     font-family: 'Open Sans';
     line-height: 40px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -ms-filter: blur(2px);
+    -o-filter: blur(2px);
+    filter: blur(2px);
 }
 .sight01 {
     font-size: 81px;
@@ -60,12 +65,16 @@
     word-spacing: 40px;
 }
 .uline {
-    color: #f00;
+    border-bottom: 1px solid red;
+    width: 390px;
+    margin-left: 5px;
+    filter: blur(100px);
+    /*color: #f00;
     background-color: #f00;
     width: 75%;
     aheight: 5px;
     color: rgba(0,0,0,0);
-    text-shadow: 0 0 3px #555;
+    text-shadow: 0 0 3px #555;*/
 }
 
 .sight15 {
