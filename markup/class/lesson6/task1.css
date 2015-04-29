@@ -1,0 +1,92 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.testimonial-wrap {
+    display: inline-block;
+    width: 100%;
+    min-width: 1024px;
+    height: 320px;
+    position: relative;
+    margin-top: 100px;
+    background: url(http://s1.sendimage.me/Bc5Cdoz7.jpeg)repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.testimonial-wrap__header {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font: 400 40px / 18px 'Trebuchet MS', sans-serif;
+    padding: 10px 0 10px 0;
+    margin: 40px 70px 35px 0;
+    color: #3471A6;
+}
+
+.testimonial-wrap__header_separeted-word {
+    color: #EC8136;
+}
+
+.reviews__body {
+    display: block;
+    text-align: center;
+}
+
+.reviews__content {
+    display: inline-block;
+    text-align: left;
+    margin: 0 40px 0 0;
+}
+
+.reviews__content_img {
+    float: left;
+}
+
+.reviews__content_feed {
+    background: #F7F7F7;
+    position: relative;
+    float: right;
+    width: 360px;
+    min-height: 99px;
+    margin-left: 35px;
+}
+
+.reviews__content_feed__name {
+    float: left;
+    font: italic 13px / 24px 'Trebuchet MS', sans-serif;
+    margin: 5px 0 0 10px;
+    color: #3070a8;
+}
+
+.reviews__content_feed__type {
+    float: right;
+    font: italic 13px / 24px 'Trebuchet MS', sans-serif;
+    margin: 5px 15px 0 0;
+    color: #3070a8;
+}
+
+.reviews__content_feed__text {
+    margin: 30px 12px 0 10px;
+    padding: 5px 15px 0 0;
+    font: 400 13px / 20px 'Trebuchet MS', sans-serif;
+    border-top: 1px dashed #666666;
+    color: #666666;
+}
+
+.reviews__content_feed__name:before {
+    content: '- ';
+}
+
+.reviews__content_feed:before {
+    border: 15px solid transparent;
+    border-right: 24px solid #F7F7F7;
+    content: '';
+    position: absolute;
+    right: 360px;
+    top: 35px;
+
+}
