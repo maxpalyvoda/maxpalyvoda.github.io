@@ -1,0 +1,39 @@
+.content-block {
+    height: 578px;
+    max-height: 578px;
+    width: 100%;
+    min-width: 1024px;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid #2BC2D4;
+    background: url("http://s1.sendimage.me/6n1KaoTT.png");
+    font-family: 'Open Sans';
+
+}
+.content-block__fulfillment {
+    border: 1px solid red;
+    width: 670px;
+    height: 100%;
+    max-height: 490px;
+    margin: 90px auto;
+}
+.content-block__fulfillment_header {
+    color: #ee8129;
+    margin: 0 auto;
+}
+.content-block__fulfillment_text {
+    color: #fff;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 34px;
+}
+.content-block__fulfillment_list {
+    font-size: 14px;
+    color: #9d9d9d;
+}
+.content-block__fulfillment_list ul li {
+    padding: 25px 0 0 0;
+}
+.content-block__fulfillment_list-colored {
+    color: #3070a8;
+}
