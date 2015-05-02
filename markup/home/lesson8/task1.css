@@ -1,6 +1,8 @@
 .search-block {
     width: 51%;
     height: 52px;
+    min-width: 400px;
+    max-width: 1024px;
     -border: 1px solid red;
     background: #FFCD5D;
     position: relative;
@@ -17,6 +19,7 @@
 }
 .search-block__search-field_button {
     width: 15%;
+    min-width: 40px;
     height: 25px;
     margin: 5px 0 0 8px;
 }
