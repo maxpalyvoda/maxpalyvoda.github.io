@@ -1,16 +1,14 @@
 .footer-container {
     width: 100%;
     min-width: 1024px;
-    max-height: 105px;
+    max-height: 560px;
     height: 105px;
     background: #3070a8;
     -border: 1px solid red;
     font-family: 'Open Sans';
-    margin: 5px auto;
+    margin: 0 auto;
     text-align: center;
     color: #fff;
-    padding: 6px 0 0 0;
-    box-sizing: border-box;
 }
 .footer-container_company-name, .footer-container_design-studio-name {
     font-weight: bold;
