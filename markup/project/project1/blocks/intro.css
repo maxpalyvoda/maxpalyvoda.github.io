@@ -4,7 +4,8 @@
     height: 586px;
     margin: -27px auto 0;
     box-sizing: border-box;
-    background: url("http://s1.sendimage.me/JUpYsoyC.png") no-repeat;
+    background: url("http://s1.sendimage.me/JUpYsoyC.png");
+    background-repeat: no-repeat;
 }
 .intro__title {
     text-align: center;
