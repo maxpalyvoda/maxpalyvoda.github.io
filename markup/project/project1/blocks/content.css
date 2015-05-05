@@ -19,7 +19,7 @@
     width: 670px;
     height: 100%;
     max-height: 490px;
-    margin: 0 0 0 30%; /* <---- */
+    margin: 0 0 0 20%; /* <---- */
     padding-top: 50px;
     box-sizing: border-box;
 }
