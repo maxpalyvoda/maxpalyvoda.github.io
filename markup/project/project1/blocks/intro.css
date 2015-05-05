@@ -2,10 +2,14 @@
     width: 100%;
     -min-width: 1024px; /* test!!!! */
     height: 586px;
-    margin: -27px auto 0;
+    margin: -27px auto;
     box-sizing: border-box;
     background: url("http://s1.sendimage.me/JUpYsoyC.png");
     background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 .intro__title {
     text-align: center;
