@@ -21,8 +21,8 @@
     position: absolute;
     -border: 1px solid blue;
     padding: 30px 0 35px 135px;
-    -margin: 0 0 0 135px;
-     display: block;
+    margin: 0 auto;
+     -display: block;
 }
 .contacts-container__text_location img, .contacts-container__text_telephone img, .contacts-container__text_email img {
     padding: 0 10px 0 0;
