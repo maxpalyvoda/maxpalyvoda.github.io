@@ -33,7 +33,8 @@
 }
 .button__intro {
 
-    margin: 4% 0 0 38%;
+    /*margin: 4% 0 0 38%;*/
+    margin: 0 auto;
     border: 1px solid white;
     padding: 0;
     background: transparent;
