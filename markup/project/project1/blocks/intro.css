@@ -1,6 +1,6 @@
 .intro {
     width: 100%;
-    min-width: 1024px; /* test!!!! */
+    -min-width: 1024px; /* test!!!! */
     height: 586px;
     margin: -27px auto 0;
     box-sizing: border-box;
