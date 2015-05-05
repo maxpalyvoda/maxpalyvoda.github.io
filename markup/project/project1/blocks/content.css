@@ -2,12 +2,12 @@
     height: 578px;
     max-height: 578px;
     width: 100%;
-    min-width: 1024px;
+    -min-width: 1024px;
     margin: 0 auto;
     padding: 0;
     -border: 1px solid #2BC2D4;
     background: url("http://s1.sendimage.me/6n1KaoTT.png");
-    background-repeat: none;
+    background-repeat: no-repeat;;
     font-family: 'Open Sans';
     box-sizing: border-box;
 
