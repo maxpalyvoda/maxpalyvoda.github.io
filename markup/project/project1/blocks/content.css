@@ -31,7 +31,9 @@
     color: #fff;
     font-style: italic;
     font-size: 15px;
-    margin-top: 34px;
+    -margin-top: 34px;
+    display: block;
+    margin: 34px auto 0;
 }
 .content-block__fulfillment_list {
     font-size: 14px;
