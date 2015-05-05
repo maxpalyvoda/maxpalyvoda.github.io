@@ -32,7 +32,7 @@
     font-weight: normal;
 }
 .button__intro {
-    margin: 4% 0 0 45%;
+    -margin: 4% 0 0 45%;
     border: 1px solid white;
     padding: 0;
     background: transparent;
@@ -41,6 +41,8 @@
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
+    display: block;
+    margin: 30px auto 0;
 }
 .button__intro:hover {
     background: transparent;
