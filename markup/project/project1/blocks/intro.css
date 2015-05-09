@@ -1,11 +1,15 @@
 .intro {
     width: 100%;
-    min-width: 1024px; /* test!!!! */
+    -min-width: 1024px; /* test!!!! */
     height: 586px;
-    margin: -27px auto 0;
+    margin: -27px auto;
     box-sizing: border-box;
     background: url("http://s1.sendimage.me/JUpYsoyC.png");
     background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 .intro__title {
     text-align: center;
@@ -28,8 +32,7 @@
     font-weight: normal;
 }
 .button__intro {
-
-    margin: 4% 0 0 38%;
+    -margin: 4% 0 0 45%;
     border: 1px solid white;
     padding: 0;
     background: transparent;
@@ -38,6 +41,8 @@
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
+    display: block;
+    margin: 30px auto 0;
 }
 .button__intro:hover {
     background: transparent;
