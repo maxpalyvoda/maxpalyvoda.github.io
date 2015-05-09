@@ -1,0 +1,39 @@
+body {
+    background: #fff;
+}
+.album-container {
+    background: #fff;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid red;
+    width: 100%;
+    font-family: 'Trebuchet MS';
+}
+.album-container__header, .album-container__text {
+    text-align: center;
+}
+.album-container__header h1 {
+    color: #2e3a4f;
+}
+.album-container__text {
+    color: #909090;
+}
+.album-container__gallery {
+    margin: 80px auto;
+    max-width: 1140px;
+    border: 1px solid green;
+}
+.album-container__gallery_photo {
+    display: inline-block;
+    padding: 0 16px 16px 0;
+    position: relative;
+}
+.album-container__gallery_photo:hover {
+    -background: rgba(58, 173, 244, 0.3);
+    -background: url("http://s1.sendimage.me/XgDqHpoJ.png");
+    background: red;
+    position: absolute;
+
+}
+
+}
