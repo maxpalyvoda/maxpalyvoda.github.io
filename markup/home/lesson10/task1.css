@@ -5,7 +5,7 @@ body {
     background: #fff;
     margin: 0 auto;
     padding: 0;
-    border: 1px solid red;
+    -border: 1px solid red;
     width: 100%;
     font-family: 'Trebuchet MS';
     position: relative;
@@ -22,7 +22,7 @@ body {
 .album-container__gallery {
     margin: 80px auto;
     max-width: 1140px;
-    border: 1px solid green;
+    -border: 1px solid green;
     position: relative;
 }
 .album-container__gallery_bottom-layer {
