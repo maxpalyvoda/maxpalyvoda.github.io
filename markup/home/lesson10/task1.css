@@ -8,6 +8,7 @@ body {
     border: 1px solid red;
     width: 100%;
     font-family: 'Trebuchet MS';
+    position: relative;
 }
 .album-container__header, .album-container__text {
     text-align: center;
@@ -22,18 +23,44 @@ body {
     margin: 80px auto;
     max-width: 1140px;
     border: 1px solid green;
-}
-.album-container__gallery_photo {
-    display: inline-block;
-    padding: 0 16px 16px 0;
     position: relative;
 }
-.album-container__gallery_photo:hover {
-    -background: rgba(58, 173, 244, 0.3);
-    -background: url("http://s1.sendimage.me/XgDqHpoJ.png");
-    background: red;
-    position: absolute;
-
+.album-container__gallery_bottom-layer {
+    display: inline-block;
+    padding: 0 15px 16px 0;
+    position: relative;
+    -opacity: 0.9;
+}
+.album-container__gallery_bottom-layer:hover {
+    z-index: 2;
 }
 
+/*.album-container__hover {
+    position: absolute;
+    max-width: 1140px;
+    border: 1px solid yellowgreen;
+    -margin: -645px 0 0 95px;
+    -background: rgba(58, 173, 244, 0.5);
+} */
+.album-container__gallery_photo {
+    position: absolute;
+    bottom: 16px;
+    -z-index: -1;
+}
+.album-container__gallery_photo:hover {
+    opacity: 0.1;
+}
+.album-container__gallery_bottom-layer_button-container {
+    position: absolute;
+    bottom: 130px;
+    left: 120px;
+    width: 100px;
+    -border: 1px solid black;
+}
+.album-container__gallery_bottom-layer_button-container-button {
+    display: inline-block;
+    margin: 0 0 0 5px;
+}
+.album-container__gallery_bottom-layer_button-container-button:hover {
+    -opacity: 0.9;
 }
