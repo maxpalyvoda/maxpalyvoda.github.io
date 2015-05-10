@@ -34,7 +34,6 @@ body {
 .album-container__gallery_bottom-layer:hover {
     z-index: 2;
 }
-
 /*.album-container__hover {
     position: absolute;
     max-width: 1140px;
