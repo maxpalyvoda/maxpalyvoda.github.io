@@ -1,5 +1,7 @@
 body {
     background: #fff;
+    margin: 0;
+    padding: 0;
 }
 .album-container {
     background: #fff;
@@ -7,8 +9,7 @@ body {
     padding: 0;
     -border: 1px solid red;
     width: 100%;
-    font-family: 'Trebuchet MS';
-    position: relative;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 .album-container__header, .album-container__text {
     text-align: center;
@@ -21,45 +22,104 @@ body {
 }
 .album-container__gallery {
     margin: 80px auto;
+    width: 100%;
     max-width: 1140px;
     -border: 1px solid green;
-    position: relative;
+    display: block;
 }
-.album-container__gallery_bottom-layer {
+.album-container__gallery_photo-block {
     display: inline-block;
-    padding: 0 15px 16px 0;
+    width: 362px;
+    height: 262px;
+    -border: 1px solid red;
+    margin: 0 0 0 12px;
+}
+.album-container__gallery_photo-block img {
+    margin: 0 0 -15px 0;
+}
+
+.album-container__gallery_mask {
+    display: inline-block;
     position: relative;
-    -opacity: 0.9;
+    width: 360px;
+    height: 262px;
+    -border: 1px solid red;
+    bottom: 251px;
+    -background: black;
+    background: rgba(58, 173, 244, 0); /* the solution of a problem - block with mask has 100% transparency, then I use hover with ~50% transparency  */
 }
-.album-container__gallery_bottom-layer:hover {
-    z-index: 2;
+.album-container__gallery_mask:hover {
+    background: rgba(58, 173, 244, 0.7);
+    transition: .4s;
 }
-/*.album-container__hover {
-    position: absolute;
-    max-width: 1140px;
-    border: 1px solid yellowgreen;
-    -margin: -645px 0 0 95px;
-    -background: rgba(58, 173, 244, 0.5);
-} */
-.album-container__gallery_photo {
-    position: absolute;
-    bottom: 16px;
-    -z-index: -1;
-}
-.album-container__gallery_photo:hover {
-    opacity: 0.1;
-}
-.album-container__gallery_bottom-layer_button-container {
-    position: absolute;
-    bottom: 130px;
-    left: 120px;
+.album-container__gallery_mask_button-container {
     width: 100px;
+    -border: 1px solid green;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
+.album-container__gallery_mask_button-container-button {
+    position: relative;
+    display: inline-block;
+    opacity: 0;
+    padding: 0 0 0 5px;
+}
+.album-container__gallery_mask_button-container-button:hover {
+    transition: .4s;
+    opacity: 1;
+}
+.album-container__gallery_mask:hover .album-container__gallery_mask_button-container-button {
+    transition: .4s;
+    opacity: 1;
+}
+.preview-container {
+    -border: 1px solid black;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    display: block;
+    top: 178px;
+    visibility: hidden; /* <------------------------------------------------ hidden popup here */
+}
+.preview-container__img-block {
+    width: 1140px;
+    margin: 0px auto;
     -border: 1px solid black;
 }
-.album-container__gallery_bottom-layer_button-container-button {
-    display: inline-block;
-    margin: 0 0 0 5px;
+.preview-container__img-block_image {
+    position: relative;
+    z-index: 9999;
 }
-.album-container__gallery_bottom-layer_button-container-button:hover {
-    -opacity: 0.9;
+.preview-container__img-block_close {
+    height: 40px;
+    width: 40px;
+    -border: 1px solid red;
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 900;
+    box-sizing: border-box;
+    text-decoration: none;
+    bottom: 580px;
+    left: 1080px;
+    color: #fff;
+    background: #f74c26;
+    z-index: 9999;
+    display: block;
+}
+.preview-container__img-block_close:hover {
+    background: #25a6f7;
+    transition: .1s;
+}
+.preview-container__popup { /* paranja */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba(254, 254, 254, .6);
 }
