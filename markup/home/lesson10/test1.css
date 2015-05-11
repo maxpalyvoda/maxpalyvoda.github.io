@@ -7,7 +7,7 @@ body {
     padding: 0;
     -border: 1px solid red;
     width: 100%;
-    font-family: 'Trebuchet MS';
+    font-family: 'Trebuchet MS', sans-serif;
     position: relative;
 }
 .album-container__header, .album-container__text {
@@ -29,18 +29,22 @@ body {
     display: inline-block;
     width: 362px;
     height: 262px;
+    border: 1px solid red;
+    margin: 0 0 0 12px;
 }
+.album-container__gallery_photo-block img {
+    margin: 0 0 -15px 0;
+}
+
 .album-container__gallery_mask {
     display: inline-block;
     position: relative;
     width: 360px;
     height: 262px;
     -border: 1px solid red;
-    bottom: 265px;
-    -right: 365px;
+    bottom: 251px;
     -background: black;
-    background: rgba(58, 173, 244, 0);
-    /*rgba(58, 173, 244, 0.5);*/
+    background: rgba(58, 173, 244, 0); /* the solution of a problem - block with mask has 100% transparency, then I use hover with ~50% transparency  */
 }
 .album-container__gallery_mask:hover {
     background: rgba(58, 173, 244, 0.7);
