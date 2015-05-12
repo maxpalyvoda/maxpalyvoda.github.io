@@ -2,14 +2,17 @@ body {
     background: #fff;
     margin: 0;
     padding: 0;
+    border: 0;
 }
 .album-container {
     background: #fff;
     margin: 0 auto;
     padding: 0;
     -border: 1px solid red;
-    width: 100%;
+    width: auto;
     font-family: 'Trebuchet MS', sans-serif;
+    display: block;
+    max-width: 1140px;
 }
 .album-container__header, .album-container__text {
     text-align: center;
@@ -22,10 +25,9 @@ body {
 }
 .album-container__gallery {
     margin: 80px auto;
-    width: 100%;
-    max-width: 1140px;
     -border: 1px solid green;
     display: block;
+    text-align: center; /* allignment to the center */
 }
 .album-container__gallery_photo-block {
     display: inline-block;
@@ -37,14 +39,13 @@ body {
 .album-container__gallery_photo-block img {
     margin: 0 0 -15px 0;
 }
-
 .album-container__gallery_mask {
     display: inline-block;
     position: relative;
     width: 360px;
     height: 262px;
     -border: 1px solid red;
-    bottom: 251px;
+    bottom: 250px;
     -background: black;
     background: rgba(58, 173, 244, 0); /* the solution of a problem - block with mask has 100% transparency, then I use hover with ~50% transparency  */
 }
@@ -58,7 +59,6 @@ body {
     display: inline-block;
     position: relative;
     top: 100px;
-    left: 120px;
 }
 .album-container__gallery_mask_button-container-button {
     position: relative;

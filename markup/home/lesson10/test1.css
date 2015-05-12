@@ -2,14 +2,15 @@ body {
     background: #fff;
     margin: 0;
     padding: 0;
+    border: 0;
 }
 .album-container {
-    background: #fff;
+    font-family: sans-serif;
+    display: block;
+    width: auto;
+    max-width: 1200px;
+    height: auto;
     margin: 0 auto;
-    padding: 0;
-    -border: 1px solid red;
-    width: 100%;
-    font-family: 'Trebuchet MS', sans-serif;
 }
 .album-container__header, .album-container__text {
     text-align: center;
@@ -21,11 +22,11 @@ body {
     color: #909090;
 }
 .album-container__gallery {
-    margin: 80px auto;
-    width: 100%;
-    max-width: 1140px;
-    -border: 1px solid green;
     display: block;
+
+    margin-top: 70px;
+
+    text-align: center;
 }
 .album-container__gallery_photo-block {
     display: inline-block;
