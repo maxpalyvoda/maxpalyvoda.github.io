@@ -121,11 +121,6 @@ body
     color: #fff;
     background: #f74c26;
 }
-.preview-container__img-block_close:hover
-{
-    transition: .1s;
-    background: #25a6f7;
-}
 .preview-container__popup
 {
     /* paranja */
