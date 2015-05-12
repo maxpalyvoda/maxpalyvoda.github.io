@@ -8,7 +8,6 @@ body {
     background: #fff;
     margin: 0 auto;
     padding: 0;
-    -border: 1px solid red;
     width: auto;
     font-family: 'Trebuchet MS', sans-serif;
     display: block;
@@ -25,7 +24,6 @@ body {
 }
 .album-container__gallery {
     margin: 80px auto;
-    -border: 1px solid green;
     display: block;
     text-align: center; /* allignment to the center */
 }
@@ -33,7 +31,6 @@ body {
     display: inline-block;
     width: 362px;
     height: 262px;
-    -border: 1px solid red;
     margin: 0 0 0 12px;
 }
 .album-container__gallery_photo-block img {
@@ -44,9 +41,7 @@ body {
     position: relative;
     width: 360px;
     height: 262px;
-    -border: 1px solid red;
     bottom: 250px;
-    -background: black;
     background: rgba(58, 173, 244, 0); /* the solution of a problem - block with mask has 100% transparency, then I use hover with ~50% transparency  */
 }
 .album-container__gallery_mask:hover {
@@ -55,7 +50,6 @@ body {
 }
 .album-container__gallery_mask_button-container {
     width: 100px;
-    -border: 1px solid green;
     display: inline-block;
     position: relative;
     top: 100px;
@@ -75,7 +69,6 @@ body {
     opacity: 1;
 }
 .preview-container {
-    -border: 1px solid black;
     width: 100%;
     margin: 0 auto;
     position: absolute;
@@ -85,8 +78,7 @@ body {
 }
 .preview-container__img-block {
     width: 1140px;
-    margin: 0px auto;
-    -border: 1px solid black;
+    margin: 0 auto;
 }
 .preview-container__img-block_image {
     position: relative;
@@ -95,7 +87,6 @@ body {
 .preview-container__img-block_close {
     height: 40px;
     width: 40px;
-    -border: 1px solid red;
     position: relative;
     text-align: center;
     padding: 5px;
