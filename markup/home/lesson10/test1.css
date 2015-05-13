@@ -44,14 +44,10 @@ body
     margin: 0 0 0 12px;
 }
 @media (max-width: 600px) {
-  .album-container {
-    min-width: 500px;
-    width: 100%;
-  }
   .album-container__gallery_photo-block {
     display: block;
     width: 100%;
-    margin: 0 0 12px 0;    
+    margin: 0 0 10px 0;    
   }
   .album-container__gallery {
     width: 100%;
