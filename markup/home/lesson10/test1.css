@@ -43,7 +43,7 @@ body
     height: 262px;
     margin: 0 0 0 12px;
 }
-@media (max-width: 640px) {
+@media (max-width: 600px) {
   .album-container {
     min-width: 500px;
     width: 100%;
@@ -111,7 +111,7 @@ body
 {
     position: absolute;
     top: 178px;
-    display: block;
+    display: none;
     visibility: hidden; /* <------------------------------------------------ hidden popup here */
     width: 100%;
     margin: 0 auto;
