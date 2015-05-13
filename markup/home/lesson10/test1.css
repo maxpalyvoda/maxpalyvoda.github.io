@@ -47,8 +47,6 @@ body
   .album-container {
     min-width: 500px;
     width: 100%;
-    overflow-x: hidden;
-    color: red;
   }
   .album-container__gallery_photo-block {
     display: block;
@@ -60,6 +58,7 @@ body
   }
   .album-container__header {
     font-size: 10px;
+    color: red;
   }
   .album-container__text{
     font-size: 8px;
