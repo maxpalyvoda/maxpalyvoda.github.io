@@ -47,7 +47,7 @@ body
   .album-container {
     min-width: 500px;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .album-container__gallery_photo-block {
     display: block;
