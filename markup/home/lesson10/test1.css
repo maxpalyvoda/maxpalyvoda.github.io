@@ -43,7 +43,7 @@ body
     height: 262px;
     margin: 0 0 0 12px;
 }
-@media (max-width: 640px) {
+@media (max-width: 640px), (orientation: landscape) {
   .album-container__gallery_photo-block {
     display: block;
     width: 100%;
@@ -57,15 +57,6 @@ body
   }
   .album-container__text{
     font-size: 8px;
-}
-.preview-container
-{
-    position: absolute;
-    top: 178px;
-    -display: none;
- /* <------------------------------------------------ hidden popup here */
-    width: 100%;
-    margin: 0 auto;
 }
 }
 .album-container__gallery_photo-block img
