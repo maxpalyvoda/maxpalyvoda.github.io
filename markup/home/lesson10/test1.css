@@ -58,6 +58,15 @@ body
   .album-container__text{
     font-size: 8px;
 }
+.preview-container
+{
+    position: absolute;
+    top: 178px;
+    -display: none;
+ /* <------------------------------------------------ hidden popup here */
+    width: 100%;
+    margin: 0 auto;
+}
 }
 .album-container__gallery_photo-block img
 {
