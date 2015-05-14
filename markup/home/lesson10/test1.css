@@ -43,7 +43,7 @@ body
     height: 262px;
     margin: 0 0 0 12px;
 }
-@media (max-width: 700px) {
+@media (max-width: 640px) {
   .album-container__gallery_photo-block {
     display: block;
     width: 100%;
@@ -54,7 +54,6 @@ body
   }
   .album-container__header {
     font-size: 10px;
-    color: red;
   }
   .album-container__text{
     font-size: 8px;
@@ -107,8 +106,8 @@ body
 {
     position: absolute;
     top: 178px;
-    display: none;
-    visibility: hidden; /* <------------------------------------------------ hidden popup here */
+    -display: none;
+ /* <------------------------------------------------ hidden popup here */
     width: 100%;
     margin: 0 auto;
 }
