@@ -131,7 +131,7 @@ body
     left: 0;
     background: rgba(254, 254, 254, .6);
 }
-@media (max-width: 640px), (orientation: landscape) {
+@media (max-width: 640px) {
   .album-container__gallery_photo-block {
     display: block;
     width: 100%;
