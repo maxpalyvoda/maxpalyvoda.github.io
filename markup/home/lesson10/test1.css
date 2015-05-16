@@ -1,126 +1,161 @@
-body {
-    background: #fff;
+body
+{
     margin: 0;
     padding: 0;
     border: 0;
+    background: #fff;
 }
-.album-container {
-    font-family: sans-serif;
+.album-container
+{
+    font-family: 'Trebuchet MS', sans-serif;
     display: block;
     width: auto;
-    max-width: 1200px;
-    height: auto;
+    max-width: 1140px;
     margin: 0 auto;
+    padding: 0;
+    background: #fff;
+  -border: 1px solid red;
+  overflow:hidden; 
 }
-.album-container__header, .album-container__text {
+.album-container__header,
+.album-container__text
+{
     text-align: center;
 }
-.album-container__header h1 {
+.album-container__header h1
+{
     color: #2e3a4f;
 }
-.album-container__text {
+.album-container__text
+{
     color: #909090;
 }
-.album-container__gallery {
+.album-container__gallery
+{
     display: block;
-
-    margin-top: 70px;
-
-    text-align: center;
+    margin: 80px auto;
+    text-align: center; /* allignment to the center */
 }
-.album-container__gallery_photo-block {
+.album-container__gallery_photo-block
+{
     display: inline-block;
     width: 362px;
     height: 262px;
-    -border: 1px solid red;
     margin: 0 0 0 12px;
 }
-.album-container__gallery_photo-block img {
-    margin: 0 0 -15px 0;
+@media (max-width: 640px), (orientation: landscape) {
+  .album-container__gallery_photo-block {
+    display: block;
+    width: 100%;
+    margin: 0 0 10px 0;    
+  }
+  .album-container__gallery {
+    width: 100%;
+  }
+  .album-container__header {
+    font-size: 10px;
+  }
+  .album-container__text{
+    font-size: 8px;
 }
-
-.album-container__gallery_mask {
-    display: inline-block;
-    position: relative;
-    width: 360px;
-    height: 262px;
-    -border: 1px solid red;
-    bottom: 251px;
-    -background: black;
-    background: rgba(58, 173, 244, 0); /* the solution of a problem - block with mask has 100% transparency, then I use hover with ~50% transparency  */
-}
-.album-container__gallery_mask:hover {
-    background: rgba(58, 173, 244, 0.7);
-    transition: .4s;
-}
-.album-container__gallery_mask_button-container {
-    width: 100px;
-    -border: 1px solid green;
-    display: inline-block;
-    position: relative;
-    top: 100px;
-    left: 120px;
-}
-.album-container__gallery_mask_button-container-button {
-    position: relative;
-    display: inline-block;
-    opacity: 0;
-    padding: 0 0 0 5px;
-}
-.album-container__gallery_mask_button-container-button:hover {
-    transition: .4s;
-    opacity: 1;
-}
-.album-container__gallery_mask:hover .album-container__gallery_mask_button-container-button {
-    transition: .4s;
-    opacity: 1;
-}
-.preview-container {
-    -border: 1px solid black;
+.preview-container
+{
+    -position: absolute;
+    top: 178px;
+    -display: none;
+ /* <------------------------------------------------ hidden popup here */
     width: 100%;
     margin: 0 auto;
+}
+}
+.album-container__gallery_photo-block img
+{
+    margin: 0 0 -15px 0;
+}
+.album-container__gallery_mask
+{
+    position: relative;
+    bottom: 250px;
+    display: inline-block;
+    width: 360px;
+    height: 262px;
+
+    background: rgba(58, 173, 244, 0); /* the solution of a problem - block with mask has 100% transparency, then I use hover with ~50% transparency  */
+}
+.album-container__gallery_mask:hover
+{
+    transition: .4s;
+    background: rgba(58, 173, 244, .7);
+}
+.album-container__gallery_mask_button-container
+{
+    position: relative;
+    top: 100px;
+    display: inline-block;
+    width: 100px;
+}
+.album-container__gallery_mask_button-container-button
+{
+    position: relative;
+    display: inline-block;
+    padding: 0 0 0 5px;
+    opacity: 0;
+}
+.album-container__gallery_mask_button-container-button:hover
+{
+    transition: .4s;
+    opacity: 1;
+}
+.album-container__gallery_mask:hover .album-container__gallery_mask_button-container-button
+{
+    transition: .4s;
+    opacity: 1;
+}
+.preview-container
+{
     position: absolute;
-    display: block;
-    top: 180px;
-    visibility: hidden; /* <------------------------------------------------ hidden popup here */
+    top: 178px;
+    display: none;
+ /* <------------------------------------------------ hidden popup here */
+    width: 100%;
+    margin: 0 auto;
 }
-.preview-container__img-block {
+.preview-container__img-block
+{
     width: 1140px;
-    margin: 0px auto;
-    -border: 1px solid black;
+    margin: 0 auto;
 }
-.preview-container__img-block_image {
+.preview-container__img-block_image
+{
     position: relative;
     z-index: 9999;
 }
-.preview-container__img-block_close {
-    height: 40px;
-    width: 40px;
-    -border: 1px solid red;
-    position: relative;
-    text-align: center;
-    padding: 5px;
+.preview-container__img-block_close
+{
     font-size: 25px;
     font-weight: 900;
-    box-sizing: border-box;
-    text-decoration: none;
+    position: relative;
+    z-index: 9999;
     bottom: 580px;
     left: 1080px;
+    display: block;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
     color: #fff;
     background: #f74c26;
-    z-index: 9999;
-    display: block;
 }
-.preview-container__img-block_close:hover {
-    background: #25a6f7;
-    transition: .1s;
-}
-.preview-container__popup { /* paranja */
+.preview-container__popup
+{
+    /* paranja */
     position: fixed;
+    z-index: 1;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 1;
     background: rgba(254, 254, 254, .6);
 }

@@ -88,8 +88,7 @@ body
 {
     position: absolute;
     top: 178px;
-    display: block;
-    visibility: hidden; /* <------------------------------------------------ hidden popup here */
+    display: none; /* <------------------------------------------------ hidden popup here */
     width: 100%;
     margin: 0 auto;
 }
@@ -132,4 +131,19 @@ body
     left: 0;
     background: rgba(254, 254, 254, .6);
 }
-
+@media (max-width: 640px) {
+  .album-container__gallery_photo-block {
+    display: block;
+    width: 100%;
+    margin: 0 0 10px 0;    
+  }
+  .album-container__gallery {
+    width: 100%;
+  }
+  .album-container__header {
+    font-size: 10px;
+  }
+  .album-container__text{
+    font-size: 8px;
+}
+}
