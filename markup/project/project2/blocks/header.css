@@ -1,0 +1,53 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    width: 100%;
+    height: 78px;
+
+    color: #fff;
+    border: 1px solid red;
+    background-color: #3498db;
+    box-sizing: border-box;
+}
+.header__context
+{
+    width: 990px;
+    min-width: 990px;
+    height: 78px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.header__context > img
+{
+    margin: 13px 0 0 0;
+    display: inline-block;
+}
+.header__context_text
+{
+    display: inline-block;
+    width: 217px;
+    border: 1px solid yellow;
+    bottom: 20px;
+    margin: 0 0 30px 0;
+}
+.header__context_connect
+{
+    display: inline-block;
+    margin: 0 0 0 566px;
+    width: 140px;
+}
+.header__context_connect-smm-sprite
+{
+    display: inline-block;
+
+    width: 30px;
+    height: 25px;
+
+    background: url('http://s1.sendimage.me/oLITSpSR.png') no-repeat 0 0;
+    margin:;
+}
