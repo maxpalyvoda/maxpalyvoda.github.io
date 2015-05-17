@@ -6,7 +6,6 @@ body
 .header
 {
     width: 100%;
-
     color: #fff;
 }
 body, .header
@@ -17,7 +16,6 @@ body, .header
 {
     box-sizing: border-box;
     height: 78px;
-
     background-color: #3498db;
 }
 .header__context
@@ -29,7 +27,6 @@ body, .header
 .header__context > img, .header__context_text, .header__context_connect, .header__context_connect_text
 {
     position: relative;
-
     display: inline-block;
 }
 .header__context > img
@@ -42,28 +39,23 @@ body, .header
 
     bottom: 18px;
     left: 14px;
-
     text-transform: uppercase;
 }
 .header__context_connect
 {
     line-height: 42px;
-
     bottom: 18px;
     left: 462px;
-
     text-align: center;
 }
 .header__context_connect_text
 {
     font-size: 12px;
-
     bottom: 8px;
 }
 .header__context_connect-sprite
 {
     display: inline-block;
-
     background-image: url(/markup/project/project2/images/spritesheet.png);
     background-repeat: no-repeat;
 }
@@ -72,7 +64,6 @@ body, .header
 {
     width: 23px;
     height: 23px;
-
     background-position: -5px -5px;
 }
 
@@ -80,7 +71,6 @@ body, .header
 {
     width: 23px;
     height: 23px;
-
     background-position: -37px -5px;
 }
 
@@ -88,6 +78,5 @@ body, .header
 {
     width: 23px;
     height: 23px;
-
     background-position: -69px -5px;
 }
