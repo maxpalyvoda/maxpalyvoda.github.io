@@ -6,48 +6,88 @@ body
 .header
 {
     width: 100%;
-    height: 78px;
 
     color: #fff;
-    border: 1px solid red;
-    background-color: #3498db;
+}
+body, .header
+{
+    font-family: Helvetica, Arial, sans-serif;
+}
+.header, .header__context
+{
     box-sizing: border-box;
+    height: 78px;
+
+    background-color: #3498db;
 }
 .header__context
 {
     width: 990px;
-    min-width: 990px;
-    height: 78px;
+    max-width: 990px;
     margin: 0 auto;
-    box-sizing: border-box;
-    border: 1px solid black;
+}
+.header__context > img, .header__context_text, .header__context_connect, .header__context_connect_text
+{
+    position: relative;
+
+    display: inline-block;
 }
 .header__context > img
 {
-    margin: 13px 0 0 0;
-    display: inline-block;
+    margin: 11px 0 0 0;
 }
 .header__context_text
 {
-    display: inline-block;
-    width: 217px;
-    border: 1px solid yellow;
-    bottom: 20px;
-    margin: 0 0 30px 0;
+    font-size: 26px;
+
+    bottom: 18px;
+    left: 14px;
+
+    text-transform: uppercase;
 }
 .header__context_connect
 {
-    display: inline-block;
-    margin: 0 0 0 566px;
-    width: 140px;
+    line-height: 42px;
+
+    bottom: 18px;
+    left: 462px;
+
+    text-align: center;
 }
-.header__context_connect-smm-sprite
+.header__context_connect_text
+{
+    font-size: 12px;
+
+    bottom: 8px;
+}
+.header__context_connect-sprite
 {
     display: inline-block;
 
-    width: 30px;
-    height: 25px;
+    background-image: url(/markup/project/project2/images/spritesheet.png);
+    background-repeat: no-repeat;
+}
 
-    background: url('http://s1.sendimage.me/oLITSpSR.png') no-repeat 0 0;
-    margin:;
+.sprite-facebook
+{
+    width: 23px;
+    height: 23px;
+
+    background-position: -5px -5px;
+}
+
+.sprite-google-plus
+{
+    width: 23px;
+    height: 23px;
+
+    background-position: -37px -5px;
+}
+
+.sprite-twitter
+{
+    width: 23px;
+    height: 23px;
+
+    background-position: -69px -5px;
 }
