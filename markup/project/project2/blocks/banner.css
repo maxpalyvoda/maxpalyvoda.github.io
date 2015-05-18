@@ -1,0 +1,57 @@
+
+.banner {
+    width: 100%;
+    height: 351px;
+    color: #fff;
+    max-width: 1920px;
+    min-width: 990px; /* min-width solved problem with picture overflow!! */
+    font-family: Helvetica, Arial, sans-serif;
+    background: url(/markup/project/project2/images/back-tunnel.png);
+        margin: 0 auto;
+}
+.banner__content {
+    width: 990px;
+    min-width: 990px;
+    height: 351px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.banner__content_text > h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.banner__content_text {
+    max-width: 546px;
+    font-size: 22px;
+    margin: 78px 0 0 0;
+}
+.banner__content_form {
+    height: 541px;
+    width: 360px;
+    border-bottom: 4px solid #3498db;
+    background: #fff;
+    text-align: center;
+    color: #333333;
+}
+.banner__content_form-text {
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 30px 0 30px 0;
+}
+
+.banner__content_form-field-type1 {
+    height: 37px;
+    width: 320px;
+}
+.banner__content_form-field-type1, .banner__content_form-field-type2 {
+    padding: 0 0 0 18px;
+    background: #f2f2f2;
+    margin: 0 0 9px 0;
+    font-size: 14px;
+    border: 1px solid #e6e6e6;
+}
+.banner__content_form-field-type2 {
+    height: 76px;
+    width: 320px;
+
+}
