@@ -1,91 +1,121 @@
 
-.banner {
-    width: 100%;
-    height: 351px;
-    color: #fff;
-    max-width: 1920px;
-    min-width: 990px; /* min-width solved problem with picture overflow!! */
+.banner
+{
     font-family: Helvetica, Arial, sans-serif;
-    background: url(/markup/project/project2/images/back-tunnel.png);
+
+    width: 100%;
+    min-width: 990px; /* min-width solved problem with picture overflow!! */
+    max-width: 1920px;
+    height: 351px;
     margin: 0 auto;
 
+    color: #fff;
+    background: url(/markup/project/project2/images/back-tunnel.png);
 }
-.banner__content {
+.banner__content
+{
     width: 990px;
     min-width: 990px;
     height: 351px;
     margin: 0 auto;
 }
-.banner__content_text-head {
-    text-transform: uppercase;
+.banner__content_text-head
+{
     font-size: 40px;
+
+    text-transform: uppercase;
 }
-.banner__content_text {
-    max-width: 546px;
+.banner__content_text
+{
     font-size: 22px;
-    top: 77px;
-    position: relative;
     line-height: 1.5;
+
+    position: relative;
+    top: 77px;
+
+    max-width: 546px;
 }
-.banner__content_form {
-    height: 541px;
-    width: 360px;
-    border-bottom: 4px solid #3498db;
-    background: #fff;
-    text-align: center;
-    color: #333333;
-    float: right;
+.banner__content_form
+{
     position: relative;
     bottom: 130px;
+
+    float: right;
+
+    width: 360px;
+    height: 541px;
+
+    text-align: center;
+
+    color: #333;
+    border-bottom: 4px solid #3498db;
+    background: #fff;
 }
-.banner__content_form-text {
-    text-transform: uppercase;
+.banner__content_form-text
+{
     font-size: 25px;
     font-weight: 400;
-    padding: 30px 0 30px 0;
     line-height: 20px;
+
+    padding: 30px 0 30px 0;
+
+    text-transform: uppercase;
 }
 
-.banner__content_form-field-type1 {
-    height: 36px;
+.banner__content_form-field-type1
+{
     width: 320px;
+    height: 36px;
 }
-.banner__content_form-field-type1, .banner__content_form-field-type2 {
-    padding: 0 0 0 18px;
-    background: #f2f2f2;
-    margin: 0 0 9px 0;
+.banner__content_form-field-type1, .banner__content_form-field-type2
+{
     font-size: 14px;
+
+    margin: 0 0 9px 0;
+    padding: 0 0 0 18px;
+
     border: 1px solid #e6e6e6;
+    background: #f2f2f2;
 }
 
-.banner__content_form-field-type2 {
-    background-color: #f2f2f2;
+.banner__content_form-field-type2
+{
     width: 320px;
     height: 76px;
+
     text-align: ;
+
+    background-color: #f2f2f2;
 }
-.banner__content_form-button {
-   background-color: #e74c3c;
-  width: 220px;
-  height: 50px;
-  font-family: Helvetica;
-  color: #ffffff;
-  font-size: 25px;
-  font-weight: 500;
-  line-height: 28px;
-  text-align: center;
-  margin: 20px 0 0 0;
-  border: none;
+.banner__content_form-button
+{
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 28px;
+
+    width: 220px;
+    height: 50px;
+    margin: 20px 0 0 0;
+
+    text-align: center;
+
+    color: #fff;
+    border: none;
+    background-color: #e74c3c;
 }
-.banner__content_form-button {
+.banner__content_form-button
+{
     cursor: pointer;
 }
-.banner__content_form-arrow {
-  position: relative;
-  bottom: 445px;
-  left: 310px;
-  width: 17px;
-  height: 11px;
-  color: #333333;
-}
+.banner__content_form-arrow
+{
+    position: relative;
+    bottom: 445px;
+    left: 310px;
 
+    width: 17px;
+    height: 11px;
+
+    color: #333;
+}
