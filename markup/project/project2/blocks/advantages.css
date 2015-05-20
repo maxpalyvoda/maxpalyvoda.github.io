@@ -1,0 +1,137 @@
+.advantages
+{
+    font-family: Helvetica, Arial, sans-serif;
+
+    width: 100%;
+    min-width: 990px; /* min-width solved problem with picture overflow!! */
+    max-width: 1920px;
+    height: 535px;
+    margin: 0 auto;
+
+}
+.advantages__context
+{
+    position: relative;
+
+    width: 990px;
+    min-width: 990px;
+    height: 535px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e9e9e9;
+}
+.advantages__context__header
+{
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 42px;
+
+    margin: 37px 0 0 0;
+
+    text-align: left;
+    text-transform: uppercase;
+
+    color: #3498db;
+}
+.advantages__context__block-1, .advantages__context__block-2, .advantages__context__block-3
+{
+    position: absolute;
+
+    display: inline-block;
+
+    width: 290px;
+    height: 400px;
+
+    text-align: center;
+}
+.advantages__context__block-1
+{
+    margin: 32px 0 0 0;
+}
+.advantages__context__block-2
+{
+    margin: 32px 0 0 350px;
+}
+.advantages__context__block-3
+{
+    margin: 32px 0 0 700px;
+}
+
+.advantages__context__block-1_photo, .advantages__context__block-2_photo, .advantages__context__block-3_photo
+{
+    width: 290px;
+    height: 159px;
+}
+.advantages__context__block-1_photo
+{
+    background-image: url(/markup/project/project2/images/building.jpg);
+}
+.advantages__context__block-2_photo
+{
+    background-image: url(/markup/project/project2/images/girls.jpg);
+}
+.advantages__context__block-3_photo
+{
+    background-image: url(/markup/project/project2/images/professor.jpg);
+}
+
+.advantages__context__block-1_text-head, .advantages__context__block-2_text-head, .advantages__context__block-3_text-head
+{
+    font-size: 15px;
+    font-weight: 700;
+
+    width: 290px;
+    height: 42px;
+    margin: 26px 0 0 0;
+
+    text-transform: uppercase;
+
+    color: #333;
+}
+.advantages__context__block-1_text-main, .advantages__context__block-2_text-main, .advantages__context__block-3_text-main
+{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+
+    overflow: hidden; /* depends on client's requirement, in psd I think it is hidden, see 3rd block */
+
+    width: 275px;
+    max-height: 120px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: #333;
+}
+.advantages__context__block-1_button, .advantages__context__block-2_button, .advantages__context__block-3_button
+{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 42px;
+
+    box-sizing: border-box;
+    width: 52px;
+    height: 52px;
+    margin: 23px auto;
+    padding: 5px 0 0 0;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #333;
+    border: 1px solid #e9e9e9;
+    border-radius: 50%;
+    background-color: #fffeff;
+}
+a
+{
+    text-decoration: none;
+}
+.advantages__context__block-1_button:hover, .advantages__context__block-2_button:hover, .advantages__context__block-3_button:hover
+{
+    transition: .3s;
+
+    color: #3498db;
+    border: 1px solid #3498db;
+}

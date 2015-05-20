@@ -34,6 +34,7 @@
     top: 77px;
 
     max-width: 546px;
+
 }
 .banner__content_form
 {
@@ -96,7 +97,8 @@
 
     width: 220px;
     height: 50px;
-    margin: 20px 0 0 0;
+
+    margin: 20px auto;
 
     text-align: center;
 
