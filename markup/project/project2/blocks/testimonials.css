@@ -18,7 +18,6 @@
     min-width: 990px;
     height: 260px;
     margin: 42px auto;
-
 }
 .testimonials__wrap__header
 {
@@ -31,15 +30,12 @@
     text-transform: uppercase;
 
     color: #3498db;
-
 }
 .testimonials__wrap__content-block
 {
     width: 723px;
     height: 175px;
     margin: 12px 0 0 0;
-
-
 }
 .testimonials__wrap__content-block_quotationmark-1
 {
@@ -89,7 +85,6 @@
     text-transform: uppercase;
 
     color: #333;
-
 }
 .testimonials__wrap__nav-buttons
 {
@@ -101,8 +96,6 @@
 
     width: 100px;
     height: 40px;
-
-
 }
 .testimonials__wrap__nav-buttons_left, .testimonials__wrap__nav-buttons_right
 {
@@ -139,8 +132,93 @@
 .testimonials__wrap__student-photo
 {
     position: absolute;
-    top: 86px;
+    top: 87px;
     left: 725px;
 
-    backgroung: url('http://s1.sendimage.me/0ip1Gqo1.jpeg');
+    background: url(images/stud-photo.png) no-repeat;
+}
+
+/* ______________TESTIMONIALS QUERY_______________________ */
+
+@media screen and (min-width: 800px) and (max-width: 1000px)
+{
+
+    body
+    {
+        width: auto;
+        min-width: 800px;
+        max-width: 1000px;
+    }
+    .testimonials
+    {
+        width: 800px;
+        min-width: 800px;
+        max-width: 1000px;
+        height: 259px;
+    }
+    .testimonials__wrap
+    {
+        position: relative;
+
+        width: 758px;
+        min-width: 758px;
+        height: 259px;
+    }
+    .testimonials__wrap__header
+    {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 42px;
+    }
+    .testimonials__wrap__content-block
+    {
+        width: 542px;
+        height: 175px;
+        margin: 12px 0 0 0;
+    }
+    .testimonials__wrap__content-block_text
+    {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+
+        width: 536px;
+        height: 53px;
+
+        text-align: left;
+        word-break: break-all;
+    }
+
+    .testimonials__wrap__content-block_student-name
+    {
+        margin: 30px 0 17px 0;
+    }
+
+    .testimonials__wrap__nav-buttons
+    {
+        position: absolute;
+        bottom: 225px;
+        left: 900px;
+
+        float: right;
+
+        width: 100px;
+        height: 40px;
+    }
+    .testimonials__wrap__student-photo
+    {
+        position: absolute;
+        left: 538px;
+    }
+    .testimonials__wrap__nav-buttons
+    {
+        position: absolute;
+        bottom: 225px;
+        left: 680px;
+
+        float: right;
+
+        width: 90px;
+        height: 40px;
+    }
 }

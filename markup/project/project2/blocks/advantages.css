@@ -7,7 +7,6 @@
     max-width: 1920px;
     height: 535px;
     margin: 0 auto;
-
 }
 .advantages__context
 {
@@ -17,6 +16,7 @@
     min-width: 990px;
     height: 535px;
     margin: 0 auto;
+
     border-bottom: 1px solid #e9e9e9;
 }
 .advantages__context__header
@@ -134,4 +134,103 @@ a
 
     color: #3498db;
     border: 1px solid #3498db;
+}
+
+/* ______________MEDIA QUERY ADVANTAGES________________________ */
+
+@media screen and (min-width: 800px) and (max-width: 1000px)
+{
+
+    body
+    {
+        width: auto;
+        min-width: 800px;
+        max-width: 1000px;
+    }
+    .advantages
+    {
+        width: 800px;
+        min-width: 800px;
+        max-width: 1000px;
+        height: 718px;
+    }
+    .advantages__context
+    {
+        position: relative;
+
+        width: 758px;
+        min-width: 758px;
+        height: 718px;
+    }
+    .advantages__context__header
+    {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 42px;
+    }
+    .advantages__context__block-1, .advantages__context__block-2, .advantages__context__block-3
+    {
+        position: absolute;
+
+        display: block;
+
+        width: 746px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    .advantages__context__block-1
+    {
+        top: 78px;
+    }
+    .advantages__context__block-2
+    {
+        top: 295px;
+    }
+    .advantages__context__block-3
+    {
+        top: 508px;
+    }
+
+    .advantages__context__block-1_text-head, .advantages__context__block-2_text-head, .advantages__context__block-3_text-head
+    {
+        font-size: 15px;
+        font-weight: 700;
+
+        position: absolute;
+        right: 150px;
+        bottom: 160px;
+
+        display: inline-block;
+
+        text-align: left;
+    }
+
+    .advantages__context__block-1_text-main, .advantages__context__block-2_text-main, .advantages__context__block-3_text-main
+    {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+
+        position: absolute;
+        right: 0;
+        bottom: 90px;
+
+        display: inline-block;
+        overflow: auto;
+
+        width: 440px;
+        max-height: 80px;
+
+        text-align: left;
+    }
+    .advantages__context__block-1_button, .advantages__context__block-2_button, .advantages__context__block-3_button
+    {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 42px;
+
+        position: absolute;
+        bottom: 0;
+        left: 305px;
+    }
 }
