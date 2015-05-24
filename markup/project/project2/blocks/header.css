@@ -98,7 +98,7 @@ body, .header
 
 /* ______________MEDIA QUERY HEADER________________________ */
 
-@media screen and (min-width: 800px) and (max-width: 1000px)
+@media only screen and (max-width: 1000px)
 {
 
 body {
@@ -120,8 +120,49 @@ body {
 
  /* ______________MEDIA QUERY HEADER MOBILE________________________ */
 
-@media screen and (max-width: 799px) {
-    .header {
-        background-color:red;
+@media only screen and (max-width: 800px) {
+   body {
+
+        width: auto;
+        min-width: 320px;
+        max-width: 800px;
+}
+
+.header {
+    width: 320px;
+    min-width: 320px;
+    max-width: 800px;
+    height: 161px;
+}
+.header__context {
+    width: 200px;
+    min-width: 200px;
+    height: 161px;
+    position: relative;
+}
+.header__context > img {
+
+        height: 53px;
+        width:53px;
+        text-align: center;
+        position: relative;
+        left: 72px;
+}
+    .header__context_text
+{
+        font-size: 20px;
+        line-height: 28px;
+        width: 173px;
+        margin: 15px auto;
+        text-align: center;
+        padding: 5px 0 5px 0;
+        border-bottom: 1px  solid #2980b9;
+
+}
+    .header__context_connect {
+
+    text-align: center;
+    margin: 20px 32px 0 0;
+
     }
 }

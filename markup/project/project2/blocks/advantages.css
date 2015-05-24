@@ -234,3 +234,106 @@ a
         left: 305px;
     }
 }
+
+ /* ______________MEDIA QUERY BANNER MOBILE________________________ */
+
+@media only screen and (max-width: 800px) {
+.advantages
+    {
+        width: 320px;
+        min-width: 320px;
+        max-width: 320px;
+        height: 1428px;
+        text-align: center;
+    }
+    .advantages__context
+    {
+        position: relative;
+        text-align: center;
+        width: 290px;
+        min-width: 290px;
+        height: 1428px;
+    }
+    .advantages__context__header
+    {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 42px;
+        text-align: center;
+
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 42px;
+
+    }
+    .advantages__context__block-1, .advantages__context__block-2, .advantages__context__block-3
+    {
+        position: absolute;
+
+        display: block;
+
+        width: 290px;
+        height: 410px;
+        margin: 0 auto;
+    }
+    .advantages__context__block-1
+    {
+        top: 78px;
+    }
+    .advantages__context__block-2
+    {
+        top: 520px;
+    }
+    .advantages__context__block-3
+    {
+        top: 970px;
+    }
+
+    .advantages__context__block-1_text-head, .advantages__context__block-2_text-head, .advantages__context__block-3_text-head
+    {
+        font-size: 15px;
+        font-weight: 700;
+        width: 200px;
+        height: 12px;
+        position: absolute;
+        right: 40px;
+
+        display: inline-block;
+
+
+        font-size: 15px;
+        font-weight: 700;
+
+    }
+
+    .advantages__context__block-1_text-main, .advantages__context__block-2_text-main, .advantages__context__block-3_text-main
+    {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+
+        position: absolute;
+        right: 0;
+        margin: 60px auto;
+
+        display: inline-block;
+        overflow: auto;
+
+        width: 271px;
+       height: 113px;
+
+        text-align: center;
+    }
+    .advantages__context__block-1_button, .advantages__context__block-2_button, .advantages__context__block-3_button
+    {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 42px;
+
+        position: absolute;
+        top: 335px;
+        left: 130px;
+
+
+    }
+}

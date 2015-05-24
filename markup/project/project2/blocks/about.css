@@ -51,7 +51,7 @@
 
 /* ______________MEDIA QUERY BANNER________________________ */
 
-@media screen and (min-width: 800px) and (max-width: 1000px)
+@media only screen and (max-width: 1000px)
 {
 
     body
@@ -82,4 +82,49 @@
     width: 390px;
     position: absolute;
     top: 50px;
+}
+
+  /* ______________MEDIA QUERY BANNER MOBILE________________________ */
+
+@media only screen and (max-width: 800px) {
+    .about
+    {
+        width: 320px;
+        height: 682px;
+        min-width: 320px;
+        max-width: 320px;
+
+    }
+    .about__content {
+        width: 269px;
+        min-width: 269px;
+        height: 682px;
+        position: relative;
+        top: 380px;
+        border: none;
+
+    }
+    .about__content_text-header {
+
+    position: absolute;
+    width: 127px;
+    height: 12px;
+    text-align: center;
+    left: 60px;
+
+}
+.about__content_text {
+
+    width: 269px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    overflow: visible;
+    word-break: normal;
+    border: none;
+}
 }
