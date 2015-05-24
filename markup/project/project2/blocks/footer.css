@@ -1,0 +1,124 @@
+.footer
+{
+    font-family: Helvetica, Arial, sans-serif;
+
+    width: 100%;
+    min-width: 990px; /* min-width solved problem with picture overflow!! */
+    max-width: 1920px;
+    height: 194px;
+    margin: 0 auto;
+
+    background-color: #3498db;;
+}
+.footer__content
+{
+    position: relative;
+
+    width: 990px;
+    min-width: 990px;
+    height: 191px;
+    margin: 0 auto;
+
+    color: #fff;
+}
+.footer__content__logo-block
+{
+    position: relative;
+    top: 50px;
+
+    box-sizing: border-box;
+    width: 240px;
+}
+.footer__content__logo-block_image
+{
+    display: inline-block;
+
+    width: 67px;
+    height: 67px;
+}
+.footer__content__logo-block_text
+{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28px;
+
+    position: absolute;
+    top: 7px;
+    left: 80px;
+
+    display: inline-block;
+
+    text-transform: uppercase;
+
+    color: #fff;
+}
+.footer__content__contacts-block
+{
+    position: absolute;
+    top: 52px;
+    left: 256px;
+
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: 710px;
+    height: 61px;
+
+    border-left: 1px solid #2980b9;
+
+
+}
+
+
+.footer__content__contacts-block_text-main
+{
+    font-size: 13px;
+    font-weight: 400;
+
+    position: absolute;
+    top: 32px;
+    left: 22px;
+}
+.footer__content__contacts-block_text
+{
+    font-size: 13px;
+    font-weight: 400;
+
+    position: relative;
+    bottom: 3px;
+    left: 22px;
+    display: inline-block;
+}
+.footer__content__contacts-block_sprite
+{
+    position: relative;
+    top: 5px;
+    left: 22px;
+    display: inline-block;
+
+    height: 21px;
+}
+
+.sprite-facebook
+{
+    width: 23px;
+    height: 23px;
+
+    background-position: -5px -5px;
+}
+
+.sprite-google-plus
+{
+    width: 23px;
+    height: 23px;
+
+    background-position: -37px -5px;
+}
+
+.sprite-twitter
+{
+    width: 23px;
+    height: 23px;
+
+    background-position: -69px -5px;
+}

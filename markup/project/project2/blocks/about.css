@@ -37,14 +37,10 @@
     font-weight: 400;
     line-height: 20px;
 
-    position: relative;
-    top: 12px;
-
-    overflow: hidden;
+     overflow: auto;
 
     width: 569px;
     height: 180px;
     max-height: 180px;
-
-    text-align: left;
+display: block;
 }

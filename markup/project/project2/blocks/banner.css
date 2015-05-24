@@ -83,10 +83,13 @@
 {
     width: 320px;
     height: 76px;
-
-    text-align: ;
-
+ font: 400 15px / 20px Helvetica, sans-serif;
     background-color: #f2f2f2;
+    outline: none;
+    resize: none;
+    margin: 5px auto;
+    padding: 5px 0 0 15px;
+
 }
 .banner__content_form-button
 {
@@ -112,12 +115,12 @@
 }
 .banner__content_form-arrow
 {
-    position: relative;
-    bottom: 445px;
-    left: 310px;
+     position: relative;
+    top: 85px;
+    right: 30px;
+
+    float: right;
 
     width: 17px;
     height: 11px;
-
-    color: #333;
 }
