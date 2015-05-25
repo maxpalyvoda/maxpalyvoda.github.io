@@ -86,7 +86,7 @@
 
   /* ______________MEDIA QUERY BANNER MOBILE________________________ */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 300px) {
     .about
     {
         width: 320px;
