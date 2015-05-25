@@ -238,7 +238,7 @@ a
 
  /* ______________MEDIA QUERY BANNER MOBILE________________________ */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 300px) {
 .advantages
     {
         width: 320px;
