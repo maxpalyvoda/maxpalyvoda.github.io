@@ -141,6 +141,11 @@
     height: 130px;
    
 }
+.action-field__content_button:hover {
+    border: 1px solid #fff;
+    background: #3498db;
+}
+}
     .action-field__content_button_text{
       
         font-size: 20px;
