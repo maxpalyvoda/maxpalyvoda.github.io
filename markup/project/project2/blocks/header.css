@@ -120,7 +120,7 @@ body {
 
  /* ______________MEDIA QUERY HEADER MOBILE________________________ */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 300px) {
    body {
 
         width: auto;
