@@ -59,12 +59,7 @@
     border-radius: 50%;
     background-color: rgba(255, 254, 255, 0);
 }
-.action-field__content_button_navigation:hover
-{
-    cursor: pointer;
-    color: #3498db;
-    border-color: #3498db;
-}
+
 
 
 /* ______________ACTION FIELD QUERY_______________________ */
