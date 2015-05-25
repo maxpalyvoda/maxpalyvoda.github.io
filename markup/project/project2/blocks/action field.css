@@ -63,18 +63,15 @@
     color: #3498db;
     border-color: #3498db;
 }
-.action-field__content_button:hover {
-    border: 1px solid #fff;
-    background: #3498db;
-}
+
 
 /* ______________ACTION FIELD QUERY_______________________ */
 
 @media screen and (min-width: 800px) and (max-width: 1000px)
 {
 
-    body
-    {
+    body {
+    
         width: auto;
         min-width: 800px;
         max-width: 1000px;
@@ -114,9 +111,8 @@
     bottom: 14px;
     left: 405px;
     text-align: center;
-  
 }   
-    
+}
 }
 
 /* ______________MEDIA QUERY BANNER MOBILE________________________ */
