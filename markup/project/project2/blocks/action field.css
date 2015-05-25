@@ -27,7 +27,9 @@
     top: 66px;
     background-color: #e74c3c;
 }
-
+.action-field__content_button:hover {
+    color: #fff;
+}
 .action-field__content_button_text
 {
     font-size: 25px;
