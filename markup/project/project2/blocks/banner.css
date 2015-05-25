@@ -201,6 +201,11 @@
         border-bottom: 4px solid #3498db;
         background: #fff;
     }
+    .banner__content_form-button:hover
+{
+    color: #3498db;
+    border: 3px solid #fff;
+}
 }
 
  /* ______________MEDIA QUERY BANNER MOBILE________________________ */
