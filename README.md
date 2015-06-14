@@ -1,2 +1,2 @@
 # maxpalyvoda.github.io
-test
+Here you can find my projects in js/css/html.
