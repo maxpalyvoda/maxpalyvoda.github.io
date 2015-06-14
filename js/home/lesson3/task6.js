@@ -2,10 +2,10 @@
 
  function pow (x, n) {
   var result = 1;
-  for (var counter = 0; counter < n; counter++) 
-    result *= x;
+  for (var counter = 0; counter < n; counter++) {
+    result *= x; 
+  }
     return result;
-  
 }
 console.log(pow(2,3));
 
