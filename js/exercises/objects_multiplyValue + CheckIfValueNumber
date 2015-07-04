@@ -1,0 +1,24 @@
+var menu = {
+  width: 200,
+  height: 300,
+  title: "My menu"
+};
+
+// code to check if the value is number
+function isNumeric(n) {
+  return !isNaN(parseFloat(n)) && isFinite(n)
+}
+// code to multiply number
+function multiplyNumeric(menu){
+  //var multiplyByTwo = 0;
+  for(var key in menu) {
+    if (isNumeric(menu[key])) {
+      menu[key] *= 2;
+    }
+    
+  }
+  
+}
+
+multiplyNumeric(menu); //call the function
+console.log('width = ' + menu.width, 'height = ' + menu.height, 'title: ' + menu.title);
