@@ -1,0 +1,19 @@
+//task: find a name with max salary
+
+"use strict";
+
+var salaries = {
+  "John": 100,
+  "Max": 300,
+  "Kevin": 250
+};
+
+var maxSalary = 0; //define var where to put max salary, and to compare
+var nameWithSalary = ' '; // define a name where to put the string
+for(var key in salaries) {
+  if(salaries[key] > maxSalary) {
+    maxSalary = salaries[key];
+    nameWithSalary = key;
+  };
+};
+console.log(nameWithSalary || 'there is no such employee');
