@@ -1,0 +1,18 @@
+var salaries = {
+  'junior': 1000,
+  'middle': 2500,
+  'senior': 3500,
+  'lead': 5000
+};
+
+function totalSalary () {
+  var sum = 0;
+  for(var key in salaries) {
+    sum += salaries[key]; // sum = sum + salaries[key]
+    
+    }
+  return sum;
+}
+console.log(totalSalary())
+
+//Создайте функцию которая возвращает общий размер фонда зарплат (сумму) всего отдела.
