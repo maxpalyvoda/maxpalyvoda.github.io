@@ -1,0 +1,16 @@
+// task: write a custom sort for arr with numbers
+var arr = [ 1, 2, 15, 5, 4, 10 ];
+
+// to sort arr in my own custom way i need to use/write a function
+
+// function variant 1
+function customSortOne (a, b) { 
+  if (a > b) {return 1};
+  if (a < b) {return -1}
+}
+//function variant 2
+function customSortTwo (a, b) {
+  return a - b;
+}
+
+alert(arr.sort(customSortTwo)); // i should call the fucntion customSort without ( )
