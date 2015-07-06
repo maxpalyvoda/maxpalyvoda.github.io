@@ -12,4 +12,4 @@ var ladder = {
     alert( this.step );
   }
 };
-ladder.up().up().down().up().down().showStep();
+ladder.up().up().down().up().down().showStep(); //chaining. in this task used return this.
