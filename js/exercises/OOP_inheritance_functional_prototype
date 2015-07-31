@@ -1,0 +1,25 @@
+/* constructor functional inheritance
+
+function Animal(name) {
+  this.sayHi = function() {
+    console.log('hello ' + name);
+  };
+}
+
+var tiger = new Animal('Stripe');
+tiger.sayHi();
+
+*/
+
+// constructor prototype inheritance
+
+function Animal(name) {
+  this._name = name;
+}
+
+Animal.prototype.sayHi = function() {
+  console.log('hello ' + this._name);
+};
+
+var tiger = new Animal('Sherchan');
+tiger.sayHi();
