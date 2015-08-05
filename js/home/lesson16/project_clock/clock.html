@@ -1,71 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>JS Bin</title>
-  <script>
-    function displayTime() {
-    
-    var currentTime = new Date(); //ask js to give us a date, time, etc.
-    
-   // define variables for getting hours, min, sec from new Date
-    
-    var hours = currentTime.getHours();
-    var minutes = currentTime.getMinutes();
-    var seconds = currentTime.getSeconds();
-    //var milliseconds = currentTime.getMilliseconds();
-    
-  // add zero in front of numbers < 10
-    minutes = checkTime(minutes);
-    seconds = checkTime(seconds);
-    
-  // function for adding 0 in front  
-    function checkTime(i) {
-      if (i<10) {
-        i = "0" + i
-      }  
-        return i;
-}
-    
-    // to appear/connect in/to html
-var clockDiv = document.getElementById('clock').innerHTML = hours + ':' + minutes + ':' + seconds;
-  
+<script>
+function startTime() {
+    var today=new Date();
+    var h=today.getHours();
+    var m=today.getMinutes();
+    var s=today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML = h+":"+m+":"+s;
+    var t = setTimeout(function(){startTime()},500);
 }
 
-
-displayTime(); // call a function
-setInterval(displayTime, 100); // make clock alive
-  
-  </script>
-  
-  <style>
-    
-    
-body {
-    background-color: #80d4ea;
+function checkTime(i) {
+    if (i<10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
 }
-
-#clock {
-  color: #fff;
-  font-family: courier, monospace;
-  font-size: 50px;
-  font-weight: bold;
-  height: 200px;
-  width: 600px;
-  border: 10px solid black;
-  text-align: center;
-  margin: 50px auto;
-  padding: 60px;
-  box-sizing: border-box;
-  border-radius: 3%;
-}
-
-
-  </style>
-  
+</script>
 </head>
-<body>
-<div id='clock'></div>
-<div id='minutes'></div>
+
+<body onload="startTime()">
+
+<div id="txt"></div>
+
 </body>
 </html>
