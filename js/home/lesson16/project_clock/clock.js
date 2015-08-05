@@ -1,4 +1,4 @@
-$(document).ready( function() {  
+
   function displayTime() {
     
     var currentTime = new Date(); //ask js to give us a date, time, etc.
@@ -31,4 +31,4 @@ var clockDiv = document.getElementById('clock').innerHTML = hours + ':' + minute
 displayTime(); // call a function
 setInterval(displayTime, 100); // make clock alive
   
-});
+
