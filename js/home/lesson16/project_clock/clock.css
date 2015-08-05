@@ -1,0 +1,20 @@
+
+body {
+    background-color: #80d4ea;
+}
+
+#clock {
+  color: #fff;
+  font-family: courier, monospace;
+  font-size: 50px;
+  font-weight: bold;
+  height: 200px;
+  width: 600px;
+  border: 10px solid black;
+  text-align: center;
+  margin: 50px auto;
+  padding: 60px;
+  box-sizing: border-box;
+  border-radius: 3%;
+}
+
