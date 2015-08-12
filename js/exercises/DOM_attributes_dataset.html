@@ -1,0 +1,32 @@
+<!-- 
+Получите div в переменную.
+Получите значение атрибута "data-widget-name" в переменную.
+Выведите его.
+Документ:
+
+<body>
+
+  <div id="widget" data-widget-name="menu">Выберите жанр</div>
+
+  <script>
+    /* ... */
+  </script>
+</body>
+-->
+
+<!DOCTYLE HTML>
+<html>
+
+<body>
+
+  <div id="widget" data-widget-name="menu">Выберите жанр</div>
+
+  <script>
+    var getDiv = document.getElementById("widget");
+    var getProp = getDiv.dataset.widgetName;
+    console.log(getProp);
+  </script>
+
+</body>
+
+</html>
