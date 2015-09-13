@@ -1,0 +1,6 @@
+// classic counter for arr []
+
+var arr = ["apple", "orange", "pear"];
+for (var i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}

@@ -1,0 +1,4 @@
+// .join() --> transforms array into string and joins it
+
+var arr = ['Маша', 'Петя', 'Марина', 'Василий'];
+alert(arr.join('; '));

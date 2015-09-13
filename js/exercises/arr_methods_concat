@@ -1,0 +1,24 @@
+Метод arr.concat(value1, value2, … valueN) создаёт новый массив, в который копируются элементы из arr, а также value1, value2, ... valueN.
+
+Например:
+
+
+
+var arr = [1, 2];
+var newArr = arr.concat(3, 4);
+
+alert( newArr ); // 1,2,3,4
+У concat есть одна забавная особенность.
+
+Если аргумент concat — массив, то concat добавляет элементы из него.
+
+Например:
+
+
+
+
+var arr = [1, 2];
+
+var newArr = arr.concat([3, 4], 5); // то же самое, что arr.concat(3,4,5)
+
+alert( newArr ); // 1,2,3,4,5
