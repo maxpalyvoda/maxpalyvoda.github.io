@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /*
+=======
+/*
+>>>>>>> origin/master
 Напишите функцию checkSpam которая проверяет строку на содержание слов: spam, sex.
 
 checkSpam('get new Sex videos'); // true

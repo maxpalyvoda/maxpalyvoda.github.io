@@ -2,12 +2,20 @@ function Machine(power) {
   this._enabled = false;
  // var self = this;
 
+<<<<<<< HEAD
   // on
+=======
+  // on
+>>>>>>> origin/master
   this.enable = function() {
        this._enabled = true;
        console.log('on')
   };
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> origin/master
 // off
   this.disable = function() {
     this._enabled = false;

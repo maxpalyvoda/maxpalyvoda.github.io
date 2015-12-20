@@ -41,4 +41,8 @@ calc.addMethod("**", function(a, b) {
 });
 
 var result = calc.calculate("2 ** 3");
+<<<<<<< HEAD
 alert( result );
+=======
+alert( result );
+>>>>>>> origin/master

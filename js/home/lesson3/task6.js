@@ -3,7 +3,11 @@
  function pow (x, n) {
   var result = 1;
   for (var counter = 0; counter < n; counter++) {
+<<<<<<< HEAD
     result *= x;
+=======
+    result *= x;
+>>>>>>> origin/master
   }
     return result;
 }
@@ -19,4 +23,8 @@ function pow(x, n) {
     return x;
  }
 }
+<<<<<<< HEAD
 console.log(pow(2, 3));
+=======
+console.log(pow(2, 3));
+>>>>>>> origin/master

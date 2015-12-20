@@ -9,8 +9,13 @@ var maxName = '';
 for (var name in tasksCompleted) {
  if (maxTask < tasksCompleted[name]) {
    maxTask = tasksCompleted[name];
+<<<<<<< HEAD
    maxName = name;
  }
+=======
+   maxName = name;
+ }
+>>>>>>> origin/master
 }
 console.log(maxName);
 

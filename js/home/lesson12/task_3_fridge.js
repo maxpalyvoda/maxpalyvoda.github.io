@@ -16,6 +16,7 @@ function Machine(power) {
 
 // Fridge class
 function Fridge(power) {
+<<<<<<< HEAD
 
   Machine.apply(this,arguments);
 
@@ -24,6 +25,16 @@ function Fridge(power) {
   // public method to add food to the fridge, SETTER
   this.addFood = function(item) {
 
+=======
+
+  Machine.apply(this,arguments);
+
+  var food = [];
+
+  // public method to add food to the fridge, SETTER
+  this.addFood = function(item) {
+
+>>>>>>> origin/master
     if(!this._enabled) {
       throw new Error ('the fridge is off')
     }
@@ -38,7 +49,11 @@ function Fridge(power) {
   this.getFood = function() {
     return food.slice(); //with help of slice it does not react to newadded elements
   }
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> origin/master
 }
 
 var fridge = new Fridge(500);

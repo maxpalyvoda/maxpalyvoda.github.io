@@ -10,13 +10,22 @@ function fib(n) {
     return fib(n-1) + fib(n-2);
   }
 }
+<<<<<<< HEAD
 console.log(fib(7));
 
+=======
+console.log(fib(7));
+
+>>>>>>> origin/master
 // recursion short (ternanry operator ver.)
 function fib(n) {
   return n <= 1 ? n : fib(n-1) + fib (n-2);
 }
+<<<<<<< HEAD
 console.log(fib(7));
+=======
+console.log(fib(7));
+>>>>>>> origin/master
 
 //cycle
 function fib(n) {

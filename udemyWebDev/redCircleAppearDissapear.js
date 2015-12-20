@@ -12,6 +12,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
  </head>
+<<<<<<< HEAD
 
  <body>
 
@@ -20,6 +21,16 @@
 
 
 
+=======
+
+ <body>
+
+<div id='redCircle'></div>
+   <div id='emptyDiv'><p>Click here to return the red circle</p></div>
+
+
+
+>>>>>>> origin/master
 </body>
 </html>
 
@@ -35,7 +46,11 @@
   border-radius: 50%;
   background-color: red;
   margin: 0 auto;
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> origin/master
   z-index: 9999;
 }
 #redCircle:hover {
@@ -48,7 +63,11 @@
   border-radius: 50%;
   margin: 0 auto;
   visibility: hidden;
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> origin/master
  }
 #emptyDiv:hover {
   cursor: pointer;
