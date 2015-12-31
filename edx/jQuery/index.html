@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+
+    <title>Hello jQuery</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+
+
+
+    </style>
+
+
+</head>
+
+<body>
+
+<div id="target">Demo Element</div>
+<div id="display"></div>
+
+<!-- jQuery CDN -->
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.js"></script>
+
+    <script>
+
+    /*$('#target').click(function(){
+      //this is click event handler for the div element
+        $('#display').text('Div was clicked').attr('style', 'color: red');
+    });*/
+
+        $('div').click(function(){
+          // alert('div was clicked');
+           //this is the DOM element that raised the event
+        //convert to jQuery obj
+        $(this).text('Clicked');
+        });
+
+    </script>
+
+
+
+
+</body>
+
+
+
+</html>
