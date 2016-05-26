@@ -72,7 +72,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.header {
+/*.header {
     width: 320px;
     height: 30px;
     -min-width: 320px;
@@ -81,22 +81,26 @@
     margin: 0 auto;
    
     
-}
+} */
 
 .banner {
     width: 320px;
     min-width: 320px;
     max-width: 800px;
+    border-color: black;
+    border-top-style: solid;
+    border-top-width: 30px;
    
-    
 }
 .banner__content {
     width: 280px; /* text width */
     min-width: 200px;
-    
     position: relative;
+    
+    
 }
-    .banner__content_text-head
+    
+.banner__content_text-head
     {
     font-size: 12px;
     text-align: center;
