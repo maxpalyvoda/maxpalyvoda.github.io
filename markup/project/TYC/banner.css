@@ -1,3 +1,4 @@
+
 .banner
 {
     font-family: 'Roboto', sans-serif;
@@ -48,14 +49,22 @@
     text-decoration: none;
     position: relative;
     font-size: 16px;
-    bottom: 600px;
+    bottom: 650px;
     cursor: pointer;
     font-size: 13px;
     text-transform: uppercase;
     width:200px;
     margin: 0 auto;
     } 
-
+a:link {
+    text-decoration: none;
+    }
+.banner__button:hover {
+    background-color: #685935;
+}
+.banner__button:active {
+    background-color: #685935;
+}    
 
 /* ______________MEDIA QUERY BANNER________________________ */
 
@@ -106,13 +115,22 @@
     text-decoration: none;
     position: relative;
     font-size: 16px;
-    bottom: 700px;
+    bottom: 650px;
     cursor: pointer;
     font-size: 13px;
     text-transform: uppercase;
     width:200px;
     margin: 0 auto;
-    }   
+    } 
+a:link {
+    text-decoration: none;
+    }
+.banner__button:hover {
+    background-color: #685935;
+}
+.banner__button:active {
+    background-color: #685935;
+}    
     
 }
 
@@ -172,6 +190,14 @@
     text-transform: uppercase;
     width:200px;
     margin: 0 auto;
-    }    
-
+    } 
+a:link {
+    text-decoration: none;
+    }
+.banner__button:hover {
+    background-color: #685935;
+}
+.banner__button:active {
+    background-color: #685935;
+}    
 }
