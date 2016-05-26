@@ -31,12 +31,12 @@
     }
 .banner__content_text-head
     {
-    font-size: 12px;
+    font-size: 13px;
     text-align: center;
     color: #ececec;
 }
 #mistake  {
-        padding-top:    15px;
+        padding-top:    40px;
     }
     
 .banner__button {
@@ -48,7 +48,7 @@
     text-decoration: none;
     position: relative;
     font-size: 16px;
-    bottom: 700px;
+    bottom: 600px;
     cursor: pointer;
     font-size: 13px;
     text-transform: uppercase;
@@ -123,7 +123,7 @@
 {
    body {
     width: auto;
-    min-width: 320px;
+    min-width: 280px;
     max-width: 480px; /*800*/
     font-family: 'Roboto', sans-serif;
        
@@ -131,8 +131,8 @@
 
 
 .banner {
-    width: 320px;
-    min-width: 320px;
+    width: 100%;
+    min-width: 280px;
     max-width: 480px;
     border-color: black;
     border-top-style: solid;
@@ -147,12 +147,12 @@
     
 }
     
-.banner__content_text-head
-    {
+.banner__content_text-head {
     font-size: 12px;
     text-align: center;
     color: #ececec;
 }
+    
 #mistake  {
         padding-top:    15px;
     }
