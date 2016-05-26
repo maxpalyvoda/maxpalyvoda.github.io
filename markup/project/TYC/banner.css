@@ -72,16 +72,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/*.header {
-    width: 320px;
-    height: 30px;
-    -min-width: 320px;
-    -max-width: 800px;
-    background-color: #212121;
-    margin: 0 auto;
-   
-    
-} */
 
 .banner {
     width: 320px;
@@ -97,7 +87,6 @@
     min-width: 200px;
     position: relative;
     
-    
 }
     
 .banner__content_text-head
@@ -107,8 +96,9 @@
     color: #ececec;
 }
 #mistake  {
-        padding-top:    30px;
+        padding-top:    15px;
     }
+    
 .banner__button {
     background-color: #8d7b4e;
     border: none;
@@ -126,4 +116,3 @@
     margin: 0 auto;
     }    
 
-*/
